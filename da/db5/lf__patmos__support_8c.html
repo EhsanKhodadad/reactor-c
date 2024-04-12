@@ -109,7 +109,7 @@ $(function(){initNavTree('da/db5/lf__patmos__support_8c.html','../../'); initRes
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2dfaee8f5148e3ac80131307087fc84f" id="r_a2dfaee8f5148e3ac80131307087fc84f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dfaee8f5148e3ac80131307087fc84f">_lf_interruptable_sleep_until_locked</a> (<a class="el" href="../../d2/d01/structenvironment__t.html">environment_t</a> *env, <a class="el" href="../../d2/dcd/tag_8h.html#a827080fd3c574bad5a32db9f7c367587">instant_t</a> <a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">wakeup</a>)</td></tr>
-<tr class="memdesc:a2dfaee8f5148e3ac80131307087fc84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep until an absolute time. TODO: For improved power consumption this should be implemented with a HW timer and interrupts.  <br /></td></tr>
+<tr class="memdesc:a2dfaee8f5148e3ac80131307087fc84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep until an absolute time.  <br /></td></tr>
 <tr class="separator:a2dfaee8f5148e3ac80131307087fc84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab05e061dd18f2092c299820d874303e2" id="r_ab05e061dd18f2092c299820d874303e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05e061dd18f2092c299820d874303e2">_lf_initialize_clock</a> ()</td></tr>
 <tr class="separator:ab05e061dd18f2092c299820d874303e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,7 +131,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Write the current time in nanoseconds into the location given by the argument. This returns 0 (it never fails, assuming the argument gives a valid memory location). This has to be called at least once per 35 minutes to properly handle overflows of the 32-bit clock. TODO: This is only addressable by setting up interrupts on a timer peripheral to occur at wrap. </p>
+<p>Write the current time in nanoseconds into the location given by the argument. This returns 0 (it never fails, assuming the argument gives a valid memory location). </p>
 
 </div>
 </div>
@@ -172,8 +172,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sleep until an absolute time. TODO: For improved power consumption this should be implemented with a HW timer and interrupts. </p>
+<p>Sleep until an absolute time. </p>
 <p>Sleep until the given wakeup time. This should not be used directly as it does not account for clock synchronization offsets. See <a class="el" href="../../d7/d6e/clock_8h.html" title="A higher level API to the clock utilities provided by the platform API.">clock.h</a>.</p>
+<p>Since there is no sleep mode in Patmos, and energy saving is not important for real-time systems, we just used a busy sleep.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">wakeup</td><td>int64_t time of wakeup </td></tr>

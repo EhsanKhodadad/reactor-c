@@ -1,8 +1,8 @@
 var net__common_8h =
 [
     [ "ADDRESS_QUERY_RETRY_INTERVAL", "d9/da6/net__common_8h.html#a8ce563da4edbe9c4f7c1ccf35ad8694f", null ],
-    [ "CONNECT_MAX_RETRIES", "d9/da6/net__common_8h.html#a32f375367fd80a6e453a02b728a78464", null ],
     [ "CONNECT_RETRY_INTERVAL", "d9/da6/net__common_8h.html#ab2106828de539188aed925f592751c12", null ],
+    [ "CONNECT_TIMEOUT", "d9/da6/net__common_8h.html#a252b2cb72531cb00ecd4d4db37a5a473", null ],
     [ "DEFAULT_PORT", "d9/da6/net__common_8h.html#a16b710f592bf8f7900666392adc444dc", null ],
     [ "DELAY_START", "d9/da6/net__common_8h.html#a4b8c713b515dba0c86d9205dc0caf4ed", null ],
     [ "ENCODE_STOP_GRANTED", "d9/da6/net__common_8h.html#a8086398bfefdc0104767df037e59daa5", null ],
@@ -17,6 +17,7 @@ var net__common_8h =
     [ "MSG_TYPE_ACK", "d9/da6/net__common_8h.html#ad94567b2d2e277ddc1be0da9a92b09e7", null ],
     [ "MSG_TYPE_ADDRESS_ADVERTISEMENT", "d9/da6/net__common_8h.html#ae004cb4e5add42afe5483f6706e11d35", null ],
     [ "MSG_TYPE_ADDRESS_QUERY", "d9/da6/net__common_8h.html#a5ac191bca25da16eca3e4f02d21172ef", null ],
+    [ "MSG_TYPE_ADDRESS_QUERY_REPLY", "d9/da6/net__common_8h.html#aabe4cac3ef1d0834a99fa2532dfaa6ba", null ],
     [ "MSG_TYPE_CLOCK_SYNC_CODED_PROBE", "d9/da6/net__common_8h.html#aa13eface5080ad75bbd53abe919c80b6", null ],
     [ "MSG_TYPE_CLOCK_SYNC_T1", "d9/da6/net__common_8h.html#aea37eff76ade1b2781a7e6298afb3a04", null ],
     [ "MSG_TYPE_CLOCK_SYNC_T3", "d9/da6/net__common_8h.html#a52a76e4cc36217a169f32d5adde590cc", null ],
