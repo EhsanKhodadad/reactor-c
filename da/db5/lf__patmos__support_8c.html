@@ -92,98 +92,9 @@ $(function(){initNavTree('da/db5/lf__patmos__support_8c.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">lf_patmos_support.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;time.h&gt;</code><br />
-<code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;assert.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d45/lf__patmos__support_8h_source.html">platform/lf_patmos_support.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/dfb/low__level__platform_8h_source.html">low_level_platform.h</a>&quot;</code><br />
-<code>#include &lt;machine/rtc.h&gt;</code><br />
-<code>#include &lt;machine/exceptions.h&gt;</code><br />
-<code>#include &lt;stdio.h&gt;</code><br />
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a2dfaee8f5148e3ac80131307087fc84f" id="r_a2dfaee8f5148e3ac80131307087fc84f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dfaee8f5148e3ac80131307087fc84f">_lf_interruptable_sleep_until_locked</a> (<a class="el" href="../../d2/d01/structenvironment__t.html">environment_t</a> *env, <a class="el" href="../../d2/dcd/tag_8h.html#a827080fd3c574bad5a32db9f7c367587">instant_t</a> <a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">wakeup</a>)</td></tr>
-<tr class="memdesc:a2dfaee8f5148e3ac80131307087fc84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sleep until an absolute time. Since there is no sleep mode in Patmos, and energy saving is not important for real-time systems, we just used a busy sleep.  <br /></td></tr>
-<tr class="separator:a2dfaee8f5148e3ac80131307087fc84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab05e061dd18f2092c299820d874303e2" id="r_ab05e061dd18f2092c299820d874303e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05e061dd18f2092c299820d874303e2">_lf_initialize_clock</a> ()</td></tr>
-<tr class="separator:ab05e061dd18f2092c299820d874303e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a843c12cfbc698883e96a0bfe23882a9e" id="r_a843c12cfbc698883e96a0bfe23882a9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843c12cfbc698883e96a0bfe23882a9e">_lf_clock_gettime</a> (<a class="el" href="../../d2/dcd/tag_8h.html#a827080fd3c574bad5a32db9f7c367587">instant_t</a> *<a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">t</a>)</td></tr>
-<tr class="separator:a843c12cfbc698883e96a0bfe23882a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a843c12cfbc698883e96a0bfe23882a9e" name="a843c12cfbc698883e96a0bfe23882a9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a843c12cfbc698883e96a0bfe23882a9e">&#9670;&#160;</a></span>_lf_clock_gettime()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">int</a> _lf_clock_gettime </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/dcd/tag_8h.html#a827080fd3c574bad5a32db9f7c367587">instant_t</a> *</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Write the current time in nanoseconds into the location given by the argument. This returns 0 (it never fails, assuming the argument gives a valid memory location). </p>
-
-</div>
-</div>
-<a id="ab05e061dd18f2092c299820d874303e2" name="ab05e061dd18f2092c299820d874303e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab05e061dd18f2092c299820d874303e2">&#9670;&#160;</a></span>_lf_initialize_clock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">void</a> _lf_initialize_clock </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">void</a></td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Patmos clock does not need initialization. </p>
-
-</div>
-</div>
-<a id="a2dfaee8f5148e3ac80131307087fc84f" name="a2dfaee8f5148e3ac80131307087fc84f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dfaee8f5148e3ac80131307087fc84f">&#9670;&#160;</a></span>_lf_interruptable_sleep_until_locked()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/df3/hashmap_8h.html#ad2c17ed7e0d4d65a63bf9002aba2016f">int</a> _lf_interruptable_sleep_until_locked </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d01/structenvironment__t.html">environment_t</a> *</td>          <td class="paramname"><span class="paramname"><em>env</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/dcd/tag_8h.html#a827080fd3c574bad5a32db9f7c367587">instant_t</a></td>          <td class="paramname"><span class="paramname"><em>wakeup</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sleep until an absolute time. Since there is no sleep mode in Patmos, and energy saving is not important for real-time systems, we just used a busy sleep. </p>
-<p>Sleep until the given wakeup time. This should not be used directly as it does not account for clock synchronization offsets. See <a class="el" href="../../d7/d6e/clock_8h.html" title="A higher level API to the clock utilities provided by the platform API.">clock.h</a>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">wakeup</td><td>int64_t time of wakeup </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int 0 if successful sleep, -1 if awoken by async event </dd></dl>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,8 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"de/dcd/influxdb_8h.html#ab29e8d0ea7feb08d13792e58a9c6f0fe":[12,0,10,0,1,11],
-"de/dcd/influxdb_8h.html#abed7324f77b104dd90f6662fffed5c03":[12,0,10,0,1,35],
-"de/dcd/influxdb_8h.html#ac5c273b5c370722ed365f2aa7759ca79":[12,0,10,0,1,20],
 "de/dcd/influxdb_8h.html#acca2186294f2553607cc2b7658cba23e":[12,0,10,0,1,31],
 "de/dcd/influxdb_8h.html#ad1c00bdea16ac6c622549b935589840b":[12,0,10,0,1,15],
 "de/dcd/influxdb_8h.html#ad456eef5a970734402bf147d5daa162c":[12,0,10,0,1,22],
@@ -249,5 +246,8 @@ var NAVTREEINDEX8 =
 "globals_vars.html":[12,1,2],
 "globals_w.html":[12,1,0,22],
 "globals_z.html":[12,1,0,23],
-"index.html":[]
+"index.html":[],
+"namespacemembers.html":[10,1,0],
+"namespacemembers_func.html":[10,1,1],
+"namespacemembers_vars.html":[10,1,2]
 };

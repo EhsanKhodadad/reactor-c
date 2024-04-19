@@ -1,8 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"dc/d7c/logging__macros_8h_source.html":[12,0,3,0,1],
-"dc/d85/reactor_8h.html":[12,0,1,1,10],
-"dc/d85/reactor_8h.html#a07b2e94bcac5d7bcfd47d4eaf35a4977":[12,0,1,1,10,9],
 "dc/d85/reactor_8h.html#a129c6df527165b2378d1dc4852411c35":[12,0,1,1,10,5],
 "dc/d85/reactor_8h.html#a1a5fdb69bc112879d4014bb0790e843c":[12,0,1,1,10,1],
 "dc/d85/reactor_8h.html#a2f0b7c8d624c2da93012538bd93568ad":[12,0,1,1,10,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX7 =
 "de/dcd/influxdb_8h.html#a93a1e5f244d7ad01a9c93b6ef0cfa23e":[12,0,10,0,1,18],
 "de/dcd/influxdb_8h.html#a9b6d90384014bed7164be5cafb575e20":[12,0,10,0,1,27],
 "de/dcd/influxdb_8h.html#a9c74319e55463b723e504f01bf5343de":[12,0,10,0,1,28],
-"de/dcd/influxdb_8h.html#aab5c9cefe9b019d4aaa5712203c74e0e":[12,0,10,0,1,5]
+"de/dcd/influxdb_8h.html#aab5c9cefe9b019d4aaa5712203c74e0e":[12,0,10,0,1,5],
+"de/dcd/influxdb_8h.html#ab29e8d0ea7feb08d13792e58a9c6f0fe":[12,0,10,0,1,11],
+"de/dcd/influxdb_8h.html#abed7324f77b104dd90f6662fffed5c03":[12,0,10,0,1,35],
+"de/dcd/influxdb_8h.html#ac5c273b5c370722ed365f2aa7759ca79":[12,0,10,0,1,20]
 };

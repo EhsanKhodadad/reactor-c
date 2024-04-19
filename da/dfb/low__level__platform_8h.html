@@ -325,8 +325,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Fetch the value of an internal (and platform-specific) physical clock. Ideally, the underlying platform clock should be monotonic. However, the core lib enforces monotonicity at higher level APIs (see <a class="el" href="../../d7/d6e/clock_8h.html" title="A higher level API to the clock utilities provided by the platform API.">clock.h</a>).</p>
 <p>This should not be used directly as it does not apply clock synchronization offsets.</p>
-<dl class="section return"><dt>Returns</dt><dd>0 for success, or -1 for failure</dd></dl>
-<p>Write the current time in nanoseconds into the location given by the argument. This returns 0 (it never fails, assuming the argument gives a valid memory location). </p>
+<dl class="section return"><dt>Returns</dt><dd>0 for success, or -1 for failure </dd></dl>
 
 </div>
 </div>
@@ -367,8 +366,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Initialize the LF clock. Must be called before using other clock-related APIs.</p>
-<p>Patmos clock does not need initialization. </p>
+<p>Initialize the LF clock. Must be called before using other clock-related APIs. </p>
 
 </div>
 </div>
@@ -386,7 +384,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/dcd/tag_8h.html#a827080fd3c574bad5a32db9f7c367587">instant_t</a></td>          <td class="paramname"><span class="paramname"><em>wakeup</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d2/dcd/tag_8h.html#a827080fd3c574bad5a32db9f7c367587">instant_t</a></td>          <td class="paramname"><span class="paramname"><em>wakeup_time</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -400,15 +398,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int 0 if sleep completed, or -1 if it was interrupted.</dd></dl>
-<p>Sleep until the given wakeup time. This should not be used directly as it does not account for clock synchronization offsets. See <a class="el" href="../../d7/d6e/clock_8h.html" title="A higher level API to the clock utilities provided by the platform API.">clock.h</a>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">wakeup</td><td>int64_t time of wakeup </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int 0 if successful sleep, -1 if awoken by async event </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>int 0 if sleep completed, or -1 if it was interrupted. </dd></dl>
 
 </div>
 </div>

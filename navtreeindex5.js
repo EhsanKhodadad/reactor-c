@@ -172,9 +172,6 @@ var NAVTREEINDEX5 =
 "da/d9c/structversion__t.html#a1467912f280c86639da40fa0ce448147":[11,0,56,1],
 "da/d9c/structversion__t.html#acaa7fa2382cb8b32c455c202d3b7ec6d":[11,0,56,0],
 "da/db5/lf__patmos__support_8c.html":[12,0,4,1,0,9],
-"da/db5/lf__patmos__support_8c.html#a2dfaee8f5148e3ac80131307087fc84f":[12,0,4,1,0,9,2],
-"da/db5/lf__patmos__support_8c.html#a843c12cfbc698883e96a0bfe23882a9e":[12,0,4,1,0,9,0],
-"da/db5/lf__patmos__support_8c.html#ab05e061dd18f2092c299820d874303e2":[12,0,4,1,0,9,1],
 "da/db5/pqueue_8c.html":[12,0,0,3,2],
 "da/db5/pqueue_8c.html#a051ae6a8bc2b547818e06cb0c72b14a2":[12,0,0,3,2,1],
 "da/db5/pqueue_8c.html#a19d650d18c331602f44c642bce2456e8":[12,0,0,3,2,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX5 =
 "da/dfb/low__level__platform_8h.html#ae0fda178667bc6cd94890a13316c285c":[12,0,4,0,1,18],
 "da/dfb/low__level__platform_8h.html#aed2c25495b50b46780c6288e4370541e":[12,0,4,0,1,19],
 "da/dfb/low__level__platform_8h.html#af5c7b68f137e69c4ad3734a42bcd0448":[12,0,4,0,1,9],
-"da/dfb/low__level__platform_8h.html#af67a6ff1a54b41b2a6e4bd36bc47b118":[12,0,4,0,1,1]
+"da/dfb/low__level__platform_8h.html#af67a6ff1a54b41b2a6e4bd36bc47b118":[12,0,4,0,1,1],
+"da/dfb/low__level__platform_8h_source.html":[12,0,4,0,1],
+"db/d12/structtoken__type__t.html":[11,0,51],
+"db/d12/structtoken__type__t.html#a304b9805bf712b9e1745432f8bd9796c":[11,0,51,1]
 };
