@@ -25,23 +25,15 @@
 var NAVTREE =
 [
   [ "reactor-c", "index.html", [
-    [ "LICENSE", "d2/d35/md__l_i_c_e_n_s_e.html", null ],
-    [ "README", "d3/dcc/md__r_e_a_d_m_e.html", [
-      [ "Reactor-C: A reactor runtime implementation in C", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md4", [
-        [ "Documentation", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md5", null ],
-        [ "Code-formatting", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md6", null ],
-        [ "Testing", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md7", null ]
+    [ "Introduction", "intro.html", [
+      [ "Overview", "index.html#autotoc_md0", null ],
+      [ "Supported Platforms", "index.html#autotoc_md1", [
+        [ "Getting started", "intro.html#autotoc_md2", null ]
       ] ]
     ] ],
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
-      ] ]
-    ] ],
+    [ "Contributing", "contributing.html", null ],
+    [ "License", "license.html", null ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -68,16 +60,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/da6/trace__impl_8h.html#a5d7ebab8b9d2b0d41fb5d5d3ad854df0",
-"d4/dd2/reactor__threaded_8h.html#a70c4ab92f00f9bcc31e4d696db1c0526",
-"d6/d51/pqueue__base_8h.html#a884902da135214a6167f1536ad4ed4bc",
-"d7/dc9/structlf__waveform__t.html",
-"d9/dd5/clock-sync_8h.html",
-"db/d7a/trace__to__chrome_8c.html#ab04adf9d48bee166b0822ef94ac2624f",
-"dc/d85/reactor_8h.html#adf76c4fc43b07691236fa6a483762481",
-"de/dbd/socket__common_8h_source.html",
-"globals_f.html"
+"group__Constants.html#ga31f99d9c502b52b5f36dc7e2028c2e80",
+"group__Internal.html#ga5a16cb75bd134d91bbb002b5d1ddc45c",
+"group__RTI.html#gaf849510938f837c74cfe8f843cb7dcb2",
+"structenvironment__t.html#adf02bc4c7926af749b64b24a1d3be7a3",
+"structrti__remote__t.html#af398be0ec31a58806d978a0670b59fac"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
 var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';
