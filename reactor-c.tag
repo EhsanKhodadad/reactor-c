@@ -726,6 +726,13 @@
       <anchor>ga986bb1be3a9e4f71e5b5dde30d9dc6ad</anchor>
       <arglist>(void *action, interval_t extra_delay, void *value, int length)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>lf_update_deadline</name>
+      <anchorfile>group__API.html</anchorfile>
+      <anchor>gabfa0f55472fb5745e5683094a6e0143f</anchor>
+      <arglist>(void *self, interval_t updated_deadline)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>clock.h</name>
@@ -2618,6 +2625,13 @@
     </member>
     <member kind="function">
       <type>interval_t</type>
+      <name>lf_get_fed_maxwait</name>
+      <anchorfile>group__Federated.html</anchorfile>
+      <anchor>gab4b57d55b69a4864eb694ed080b84d0e</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>interval_t</type>
       <name>lf_get_sta</name>
       <anchorfile>group__Federated.html</anchorfile>
       <anchor>gae03d197bf8d64f82be4a68c95a940195</anchor>
@@ -2671,6 +2685,13 @@
       <anchorfile>group__API.html</anchorfile>
       <anchor>gab49affc958f705d9e33c5e3463848bda</anchor>
       <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>lf_set_fed_maxwait</name>
+      <anchorfile>group__Federated.html</anchorfile>
+      <anchor>ga952c8552f9e327a465f3db2f72d8415e</anchor>
+      <arglist>(interval_t offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -9343,6 +9364,13 @@
     </member>
     <member kind="function">
       <type>void</type>
+      <name>lf_update_deadline</name>
+      <anchorfile>group__API.html</anchorfile>
+      <anchor>gabfa0f55472fb5745e5683094a6e0143f</anchor>
+      <arglist>(void *self, interval_t updated_deadline)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
       <name>lf_watchdog_start</name>
       <anchorfile>group__API.html</anchorfile>
       <anchor>ga82bf2c7bd91fdf03b357914cf875dbb9</anchor>
@@ -12646,6 +12674,13 @@
     </member>
     <member kind="function">
       <type>interval_t</type>
+      <name>lf_get_fed_maxwait</name>
+      <anchorfile>group__Federated.html</anchorfile>
+      <anchor>gab4b57d55b69a4864eb694ed080b84d0e</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>interval_t</type>
       <name>lf_get_sta</name>
       <anchorfile>group__Federated.html</anchorfile>
       <anchor>gae03d197bf8d64f82be4a68c95a940195</anchor>
@@ -12720,6 +12755,13 @@
       <anchorfile>group__Federated.html</anchorfile>
       <anchor>ga0931fe1bb9eac2a9beebe0c0ed03408e</anchor>
       <arglist>(environment_t *env, interval_t additional_delay, int message_type, unsigned short port, unsigned short federate, const char *next_destination_str, size_t length, unsigned char *message)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>lf_set_fed_maxwait</name>
+      <anchorfile>group__Federated.html</anchorfile>
+      <anchor>ga952c8552f9e327a465f3db2f72d8415e</anchor>
+      <arglist>(interval_t offset)</arglist>
     </member>
     <member kind="function">
       <type>void</type>

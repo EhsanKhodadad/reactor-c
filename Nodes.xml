@@ -544,6 +544,11 @@
             <Anchor>ga9107f7f62874fa972f7a31f9c277b8fc</Anchor>
            </Node>
            <Node>
+            <Name>lf_update_deadline</Name>
+            <Path>group__API.html</Path>
+            <Anchor>gabfa0f55472fb5745e5683094a6e0143f</Anchor>
+           </Node>
+           <Node>
             <Name>lf_watchdog_start</Name>
             <Path>group__API.html</Path>
             <Anchor>ga82bf2c7bd91fdf03b357914cf875dbb9</Anchor>
@@ -4507,6 +4512,11 @@
             <Anchor>gae427b4c0340dbe19d46c93708fb6151a</Anchor>
            </Node>
            <Node>
+            <Name>lf_get_fed_maxwait</Name>
+            <Path>group__Federated.html</Path>
+            <Anchor>gab4b57d55b69a4864eb694ed080b84d0e</Anchor>
+           </Node>
+           <Node>
             <Name>lf_get_sta</Name>
             <Path>group__Federated.html</Path>
             <Anchor>gae03d197bf8d64f82be4a68c95a940195</Anchor>
@@ -4560,6 +4570,11 @@
             <Name>lf_send_tagged_message</Name>
             <Path>group__Federated.html</Path>
             <Anchor>ga0931fe1bb9eac2a9beebe0c0ed03408e</Anchor>
+           </Node>
+           <Node>
+            <Name>lf_set_fed_maxwait</Name>
+            <Path>group__Federated.html</Path>
+            <Anchor>ga952c8552f9e327a465f3db2f72d8415e</Anchor>
            </Node>
            <Node>
             <Name>lf_set_federation_id</Name>
@@ -8924,6 +8939,11 @@
                             <Path>group__API.html</Path>
                             <Anchor>ga986bb1be3a9e4f71e5b5dde30d9dc6ad</Anchor>
                            </Node>
+                           <Node>
+                            <Name>lf_update_deadline</Name>
+                            <Path>group__API.html</Path>
+                            <Anchor>gabfa0f55472fb5745e5683094a6e0143f</Anchor>
+                           </Node>
                           </Subnodes>
                          </Node>
                         </Subnodes>
@@ -11183,6 +11203,11 @@
                             <Anchor>ga2f0b7c8d624c2da93012538bd93568ad</Anchor>
                            </Node>
                            <Node>
+                            <Name>lf_get_fed_maxwait</Name>
+                            <Path>group__Federated.html</Path>
+                            <Anchor>gab4b57d55b69a4864eb694ed080b84d0e</Anchor>
+                           </Node>
+                           <Node>
                             <Name>lf_get_sta</Name>
                             <Path>group__Federated.html</Path>
                             <Anchor>gae03d197bf8d64f82be4a68c95a940195</Anchor>
@@ -11221,6 +11246,11 @@
                             <Name>lf_request_stop</Name>
                             <Path>group__API.html</Path>
                             <Anchor>gab49affc958f705d9e33c5e3463848bda</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>lf_set_fed_maxwait</Name>
+                            <Path>group__Federated.html</Path>
+                            <Anchor>ga952c8552f9e327a465f3db2f72d8415e</Anchor>
                            </Node>
                            <Node>
                             <Name>lf_set_present</Name>
