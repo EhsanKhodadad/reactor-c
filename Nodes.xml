@@ -411,32 +411,37 @@
            <Node>
             <Name>lf_print_debug</Name>
             <Path>group__API.html</Path>
-            <Anchor>ga22ebee89c962ac34cc1fa7b9762b77d2</Anchor>
+            <Anchor>gabd6405738a4627385a6f3a42ef699053</Anchor>
            </Node>
            <Node>
             <Name>lf_print_error</Name>
             <Path>group__API.html</Path>
-            <Anchor>gae0a6bd6b164c5cc3e9928f5375dd1a97</Anchor>
+            <Anchor>ga43edc98b0e919af21d98951e6ec321d3</Anchor>
            </Node>
            <Node>
             <Name>lf_print_error_and_exit</Name>
             <Path>group__API.html</Path>
-            <Anchor>gabf2630e80adfec45b8b4a2782a0767a7</Anchor>
+            <Anchor>ga4e8f3883185b649cf76a2742b40c1231</Anchor>
            </Node>
            <Node>
             <Name>lf_print_error_system_failure</Name>
             <Path>group__API.html</Path>
-            <Anchor>gacbc9741875a95bb30e1a8d68cfb7cf06</Anchor>
+            <Anchor>gaa3215c4ac1863a4e36afb8075236cd72</Anchor>
+           </Node>
+           <Node>
+            <Name>lf_print_info</Name>
+            <Path>group__API.html</Path>
+            <Anchor>ga1ccde32ac15737cca48fecd88d89c472</Anchor>
            </Node>
            <Node>
             <Name>lf_print_log</Name>
             <Path>group__API.html</Path>
-            <Anchor>gab202dc9383567eaa8d9ae7240c939c19</Anchor>
+            <Anchor>ga04de5be3e0e5beee4d80966937bc63ca</Anchor>
            </Node>
            <Node>
             <Name>lf_print_warning</Name>
             <Path>group__API.html</Path>
-            <Anchor>ga613bc8d331e3fd9a3f78eb1600092e1d</Anchor>
+            <Anchor>ga01f18501c6335b9879aeb2fa85527450</Anchor>
            </Node>
            <Node>
             <Name>lf_reactor_full_name</Name>
@@ -522,6 +527,11 @@
             <Name>lf_time_add</Name>
             <Path>group__API.html</Path>
             <Anchor>ga1789de56286aa33c086b194b544c2d91</Anchor>
+           </Node>
+           <Node>
+            <Name>lf_time_parse</Name>
+            <Path>group__API.html</Path>
+            <Anchor>ga2361531ff9cbedbc03354450503a43c4</Anchor>
            </Node>
            <Node>
             <Name>lf_time_physical</Name>
@@ -755,6 +765,10 @@
             <Path>hashset__itr_8h.html</Path>
            </Node>
            <Node>
+            <Name>initialize_from_file.h</Name>
+            <Path>initialize__from__file_8h.html</Path>
+           </Node>
+           <Node>
             <Name>pointer_hashmap.h</Name>
             <Path>pointer__hashmap_8h.html</Path>
            </Node>
@@ -963,6 +977,11 @@
             <Anchor>gafe05484f1ece6fa30ba7b3bcf33f03b9</Anchor>
            </Node>
            <Node>
+            <Name>lf_initialize_string</Name>
+            <Path>group__Utilities.html</Path>
+            <Anchor>gaf36e5f8d4a3aab7cc4b1d40075f636e8</Anchor>
+           </Node>
+           <Node>
             <Name>lf_is_pointer</Name>
             <Path>group__Utilities.html</Path>
             <Anchor>ga9edb07d852ce1b4e090b36f8683c8017</Anchor>
@@ -1166,6 +1185,16 @@
             <Name>hashset_remove</Name>
             <Path>group__Utilities.html</Path>
             <Anchor>ga5b0ad513d6e64cd754213b0103a094e0</Anchor>
+           </Node>
+           <Node>
+            <Name>lf_initialize_double</Name>
+            <Path>group__Utilities.html</Path>
+            <Anchor>gaad106b7c85ed76b183e45b5be26ed325</Anchor>
+           </Node>
+           <Node>
+            <Name>lf_initialize_int</Name>
+            <Path>group__Utilities.html</Path>
+            <Anchor>gaa29f18ca2c61912c2b16df580e0acf8a</Anchor>
            </Node>
            <Node>
             <Name>lf_play_audio_waveform</Name>
@@ -1813,6 +1842,42 @@
               <Name>trigger</Name>
               <Path>structlf__action__base__t.html</Path>
               <Anchor>aacf5d85cce69c1ed02a1717a3fcbb46e</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>lf_cli_param_t</Name>
+            <Path>structlf__cli__param__t.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>description</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>ac4dc5b328292f7ad68e8e90badb724d0</Anchor>
+             </Node>
+             <Node>
+              <Name>given</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a7c6500f889e4206793504df3844bd680</Anchor>
+             </Node>
+             <Node>
+              <Name>is_width</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a76314e729d4c6a7ed7fd5e709d25a481</Anchor>
+             </Node>
+             <Node>
+              <Name>name</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a2bd92664043e3009e4a561a72969d9d1</Anchor>
+             </Node>
+             <Node>
+              <Name>type</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a86ef934906092ac28147194150decdc0</Anchor>
+             </Node>
+             <Node>
+              <Name>value</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>aa3c80a588b22ee064941e376fea3a49e</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2687,6 +2752,43 @@
             <Anchor>gaee1cd2bc521f76fa428cc659474d9570</Anchor>
            </Node>
            <Node>
+            <Name>lf_cli_type_t</Name>
+            <Path>group__Internal.html</Path>
+            <Anchor>gab6749d3dbb42ebbff86bd3cb3c5355d1</Anchor>
+          <Subnodes>
+             <Node>
+              <Name>CLI_TIME</Name>
+              <Path>group__Internal.html</Path>
+              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a09d6a14cdb0766e765c2c7ca8b2af5bb</Anchor>
+             </Node>
+             <Node>
+              <Name>CLI_INT</Name>
+              <Path>group__Internal.html</Path>
+              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a6a2c058f3b82734ecf0b3cbe5a2a0601</Anchor>
+             </Node>
+             <Node>
+              <Name>CLI_DOUBLE</Name>
+              <Path>group__Internal.html</Path>
+              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a7fba473d691d4e6f82590046adc180fe</Anchor>
+             </Node>
+             <Node>
+              <Name>CLI_FLOAT</Name>
+              <Path>group__Internal.html</Path>
+              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1afbd9c902ff2f90bb0374b97641233446</Anchor>
+             </Node>
+             <Node>
+              <Name>CLI_BOOL</Name>
+              <Path>group__Internal.html</Path>
+              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1adf8fdb008a2c4c82d8bbc64f7f0c25e8</Anchor>
+             </Node>
+             <Node>
+              <Name>CLI_STRING</Name>
+              <Path>group__Internal.html</Path>
+              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a45c4dbdb3ed80c8b6aebfb2205333cc6</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>lf_spacing_policy_t</Name>
             <Path>group__Internal.html</Path>
             <Anchor>ga0183c0b43037a172a1cd9aa6ed6b3822</Anchor>
@@ -2992,7 +3094,7 @@
            <Node>
             <Name>error</Name>
             <Path>group__Internal.html</Path>
-            <Anchor>ga8db9f1cd3ea7eb70e6958e732b26e61d</Anchor>
+            <Anchor>ga73dce66b0161fa5da8bb2a1bcc8d3101</Anchor>
            </Node>
            <Node>
             <Name>get_next_event_tag</Name>
@@ -3187,7 +3289,7 @@
            <Node>
             <Name>lf_vprint_debug</Name>
             <Path>group__Internal.html</Path>
-            <Anchor>ga334870b12bd4bc49b9da219e31225477</Anchor>
+            <Anchor>gaec240098951eda60632ee6283450dbf0</Anchor>
            </Node>
            <Node>
             <Name>lf_vprint_error</Name>
@@ -3200,9 +3302,14 @@
             <Anchor>ga698eb7c2ecf514b4afa1ab7ab598eea2</Anchor>
            </Node>
            <Node>
+            <Name>lf_vprint_info</Name>
+            <Path>group__Internal.html</Path>
+            <Anchor>ga136068c8a901039b20f0bd1e552d6885</Anchor>
+           </Node>
+           <Node>
             <Name>lf_vprint_log</Name>
             <Path>group__Internal.html</Path>
-            <Anchor>ga8432a03751d354b69ffe2f5b8c664654</Anchor>
+            <Anchor>ga0b410cbb25ceba53293a3cee9d64aab0</Anchor>
            </Node>
            <Node>
             <Name>lf_vprint_warning</Name>
@@ -3375,6 +3482,11 @@
             <Anchor>ga80aaf4eeed3e2902f8fe9de80b45777d</Anchor>
            </Node>
            <Node>
+            <Name>process_user_args</Name>
+            <Path>group__Internal.html</Path>
+            <Anchor>ga091dcc6caaaacf4c6bc71717577d7ec8</Anchor>
+           </Node>
+           <Node>
             <Name>reaction_matches</Name>
             <Path>group__Internal.html</Path>
             <Anchor>ga648da83816bb67aedeeaa8c10a99ec7a</Anchor>
@@ -3408,6 +3520,11 @@
             <Name>tracepoint_schedule</Name>
             <Path>group__Internal.html</Path>
             <Anchor>ga896f27619ab0582d5a70d8f613567671</Anchor>
+           </Node>
+           <Node>
+            <Name>usage</Name>
+            <Path>group__Internal.html</Path>
+            <Anchor>ga7f44f474f50286c4ba8c0ebac254bb28</Anchor>
            </Node>
            <Node>
             <Name>wait_until</Name>
@@ -3640,18 +3757,6 @@
             <Path>federate_8h.html</Path>
            </Node>
            <Node>
-            <Name>net_common.h</Name>
-            <Path>net__common_8h.html</Path>
-           </Node>
-           <Node>
-            <Name>net_util.h</Name>
-            <Path>net__util_8h.html</Path>
-           </Node>
-           <Node>
-            <Name>socket_common.h</Name>
-            <Path>socket__common_8h.html</Path>
-           </Node>
-           <Node>
             <Name>federate_instance_t</Name>
             <Path>structfederate__instance__t.html</Path>
           <Subnodes>
@@ -3666,14 +3771,14 @@
               <Anchor>a603662cf0155920b8a76659e7dacb9ef</Anchor>
              </Node>
              <Node>
+              <Name>inbound_net_listeners</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>a1362fc33bd9e33cde9349445431dfc9c</Anchor>
+             </Node>
+             <Node>
               <Name>inbound_p2p_handling_thread_id</Name>
               <Path>structfederate__instance__t.html</Path>
               <Anchor>ab441abf042a2ff79099bdf2860aeb058</Anchor>
-             </Node>
-             <Node>
-              <Name>inbound_socket_listeners</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>ac751250db764f954659deb15f1427044</Anchor>
              </Node>
              <Node>
               <Name>is_last_TAG_provisional</Name>
@@ -3711,6 +3816,21 @@
               <Anchor>a91a34b0d7f0f604c2f21cf062dbe0314</Anchor>
              </Node>
              <Node>
+              <Name>net_for_inbound_p2p_connections</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>a4ab5d26002d2de1b954eee6c5bafdf38</Anchor>
+             </Node>
+             <Node>
+              <Name>net_for_outbound_p2p_connections</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>abc66dce37557448ff93ecc4bdf329b76</Anchor>
+             </Node>
+             <Node>
+              <Name>net_to_RTI</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>a434d15925fe4c0721a2c1685102ae823</Anchor>
+             </Node>
+             <Node>
               <Name>number_of_inbound_p2p_connections</Name>
               <Path>structfederate__instance__t.html</Path>
               <Anchor>a6b728a970ccb1ef778dbb9779582d2f2</Anchor>
@@ -3731,34 +3851,14 @@
               <Anchor>ae9ecde30fae3a2487757a7bbb33e918e</Anchor>
              </Node>
              <Node>
-              <Name>RTI_socket_listener</Name>
+              <Name>RTI_net_listener</Name>
               <Path>structfederate__instance__t.html</Path>
-              <Anchor>a5b6b4b5912a7bb7df1c8987f38e12004</Anchor>
+              <Anchor>a4e61aad7155ef98a682aeaa89dd04c14</Anchor>
              </Node>
              <Node>
-              <Name>server_port</Name>
+              <Name>server_net</Name>
               <Path>structfederate__instance__t.html</Path>
-              <Anchor>a309c9672d657f20cd1d3661edc7d5179</Anchor>
-             </Node>
-             <Node>
-              <Name>server_socket</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>a20c5d19d5166ec82a09efe072c2f1b49</Anchor>
-             </Node>
-             <Node>
-              <Name>socket_TCP_RTI</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>aacdc19a638ccdc9fae494ce641f4cb04</Anchor>
-             </Node>
-             <Node>
-              <Name>sockets_for_inbound_p2p_connections</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>ac22a97892260d332da6f05194c280f9c</Anchor>
-             </Node>
-             <Node>
-              <Name>sockets_for_outbound_p2p_connections</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>aa4fcfa96a7c2bfd33cf45ddc43ad3437</Anchor>
+              <Anchor>a44bfdad9ab6659ca07fb6c3339971630</Anchor>
              </Node>
              <Node>
               <Name>staaSetter</Name>
@@ -3816,42 +3916,6 @@
               <Name>variance</Name>
               <Path>structlf__stat__ll.html</Path>
               <Anchor>a58abf354e780a1ec59cae3644d2fcbc1</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>rti_addr_info_t</Name>
-            <Path>structrti__addr__info__t.html</Path>
-          <Subnodes>
-             <Node>
-              <Name>has_host</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a73312cb4f806de3a9b23eb811861ac24</Anchor>
-             </Node>
-             <Node>
-              <Name>has_port</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a814382a63d0c415566268997e7e2c238</Anchor>
-             </Node>
-             <Node>
-              <Name>has_user</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a66ce998dc61ba1e1a939c18cb79ae9af</Anchor>
-             </Node>
-             <Node>
-              <Name>rti_host_str</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>ab67e59a55eda384237ee0c01b161808c</Anchor>
-             </Node>
-             <Node>
-              <Name>rti_port_str</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a182bcc2f25e999e33b4065115287a6a0</Anchor>
-             </Node>
-             <Node>
-              <Name>rti_user_str</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a3604fd6c5f95ce9afa7afcb188093ac8</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3943,79 +4007,9 @@
             <Anchor>gab0eeaea19d6e5c9217a4eed928c32141</Anchor>
            </Node>
            <Node>
-            <Name>ADDRESS_QUERY_RETRY_INTERVAL</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga8ce563da4edbe9c4f7c1ccf35ad8694f</Anchor>
-           </Node>
-           <Node>
             <Name>CLOCK_SYNC_GUARD_BAND</Name>
             <Path>group__Federated.html</Path>
             <Anchor>ga0810a64801750ce9b148848c228c86e9</Anchor>
-           </Node>
-           <Node>
-            <Name>CONNECT_RETRY_INTERVAL</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gab2106828de539188aed925f592751c12</Anchor>
-           </Node>
-           <Node>
-            <Name>CONNECT_TIMEOUT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga252b2cb72531cb00ecd4d4db37a5a473</Anchor>
-           </Node>
-           <Node>
-            <Name>DEFAULT_PORT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga16b710f592bf8f7900666392adc444dc</Anchor>
-           </Node>
-           <Node>
-            <Name>DELAY_BETWEEN_SOCKET_RETRIES</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga7b7cd916c6c027dc9ebdff449fb6edad</Anchor>
-           </Node>
-           <Node>
-            <Name>DELAY_START</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga4b8c713b515dba0c86d9205dc0caf4ed</Anchor>
-           </Node>
-           <Node>
-            <Name>ENCODE_STOP_GRANTED</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga8086398bfefdc0104767df037e59daa5</Anchor>
-           </Node>
-           <Node>
-            <Name>ENCODE_STOP_REQUEST</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga3268a658c2cb5126be5284a86ad9bd62</Anchor>
-           </Node>
-           <Node>
-            <Name>ENCODE_STOP_REQUEST_REPLY</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae06b33f7fcdc71f52eb0fcf81e07e4d6</Anchor>
-           </Node>
-           <Node>
-            <Name>FED_COM_BUFFER_SIZE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gacc95612e1d2dbbdf34afe76d50e75223</Anchor>
-           </Node>
-           <Node>
-            <Name>FEDERATE_ID_IN_USE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae3bd830cd17cf0914b61d0516360abc1</Anchor>
-           </Node>
-           <Node>
-            <Name>FEDERATE_ID_OUT_OF_RANGE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga5846fdcf4c92041f543b73e29e78aa21</Anchor>
-           </Node>
-           <Node>
-            <Name>FEDERATION_ID_DOES_NOT_MATCH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga653676d1f302fe08249af3dee78fa294</Anchor>
-           </Node>
-           <Node>
-            <Name>HMAC_DOES_NOT_MATCH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga51d08a784b4ee6463688a971d99d2944</Anchor>
            </Node>
            <Node>
             <Name>LF_CLOCK_SYNC</Name>
@@ -4038,241 +4032,6 @@
             <Anchor>gaa9efe35bfc06d22220c852574c4a5feb</Anchor>
            </Node>
            <Node>
-            <Name>MAX_NUM_PORT_ADDRESSES</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga5dbc42b5857eb262a06aa04399475d16</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_ACK</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gad94567b2d2e277ddc1be0da9a92b09e7</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_ADDRESS_ADVERTISEMENT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae004cb4e5add42afe5483f6706e11d35</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_ADDRESS_QUERY</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga5ac191bca25da16eca3e4f02d21172ef</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_ADDRESS_QUERY_REPLY</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaabe4cac3ef1d0834a99fa2532dfaa6ba</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_CLOCK_SYNC_CODED_PROBE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaa13eface5080ad75bbd53abe919c80b6</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_CLOCK_SYNC_T1</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaea37eff76ade1b2781a7e6298afb3a04</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_CLOCK_SYNC_T3</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga52a76e4cc36217a169f32d5adde590cc</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_CLOCK_SYNC_T4</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae128056ab2af39988103856ee815d930</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_DOWNSTREAM_NEXT_EVENT_TAG</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gafb060091e032562cf32c0eb62340d309</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_FAILED</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaf27674f627be1c469a529a995da5c074</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_FAILED</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaf27674f627be1c469a529a995da5c074</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_FED_IDS</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga8e49ce0b1c3a58c881849ca4d0bae824</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_FED_NONCE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga191b27bec42ab0370248fbc64cc9b860</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_FED_RESPONSE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gacd7e1e07253e568044a204a1f82d36a1</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_LATEST_TAG_CONFIRMED</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gada47c9f6736992a3df380526d87089f9</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_MESSAGE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gac79b5228f132029285408a30a31a174e</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_NEIGHBOR_STRUCTURE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga48ec489cb1543b161c262f4bee6c9598</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_NEIGHBOR_STRUCTURE_HEADER_SIZE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga77a9c1b741d7ca0f4e8d00a5b74ef91e</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_NEXT_EVENT_TAG</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaf662a6a84cd64cddad92e20e26af877e</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_P2P_MESSAGE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga2b9f13f8df66448bf81ac5fe0774c124</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_P2P_SENDING_FED_ID</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gacd33bbab7bf74e5ac8bad3bd27145f8b</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_P2P_TAGGED_MESSAGE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga5c1256c8c62fbbcb1b16ea67d8f529fb</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_PORT_ABSENT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gadb9610b1edbee4c85e194e391a6eeb74</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_PROVISIONAL_TAG_ADVANCE_GRANT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga9a9bb60d4df1ba581a29319850097cc2</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_REJECT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga59a69d0685fdc2a216718f1efa083c4c</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_RESIGN</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga9e19e307a4c3a9dbccea4f2539cd67dd</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_RTI_RESPONSE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga20f24b4b20547d44523120689afd9b98</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_STOP_GRANTED</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaad37dd00423e88f213ca7d7d238bce2e</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_STOP_GRANTED_LENGTH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga76275384e9865f1f1ed32408c03d876a</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_STOP_REQUEST_LENGTH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaa3ed75054ae1aaa64dafa6399f7a23cb</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_STOP_REQUEST_REPLY_LENGTH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaa62d9986e928cb5e872caa6a509cae6c</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_TAG_ADVANCE_GRANT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga94fe2c510160682b2c0ffc00b35e0ad5</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_TAGGED_MESSAGE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga2922af172f2e95bc73bd0675a4107b3b</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_TIMESTAMP</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga27db349e7460afc1758bf2eec95d7005</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_TIMESTAMP_LENGTH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga3450aedd1ca1c368ed28ed2e859588ef</Anchor>
-           </Node>
-           <Node>
-            <Name>MSG_TYPE_UDP_PORT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae2c2fdb5fbcc47750409348d37b0cd78</Anchor>
-           </Node>
-           <Node>
-            <Name>NONCE_LENGTH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga6771c37605e49c8faae7898797f254b7</Anchor>
-           </Node>
-           <Node>
-            <Name>NUMBER_OF_FEDERATES</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaf58c457e08491f7cfd5a0a46940e11ad</Anchor>
-           </Node>
-           <Node>
-            <Name>PORT_BIND_RETRY_INTERVAL</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaf11c9d6cd02e9e78e38a848cf75205cb</Anchor>
-           </Node>
-           <Node>
-            <Name>PORT_BIND_RETRY_LIMIT</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga04c08dc0b0733010f3190bf6df123433</Anchor>
-           </Node>
-           <Node>
-            <Name>RTI_NOT_EXECUTED_WITH_AUTH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae546b6c6176fe607616181e144364f2b</Anchor>
-           </Node>
-           <Node>
-            <Name>SHA256_HMAC_LENGTH</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gabd435507a255ff2571133013bdf93bd2</Anchor>
-           </Node>
-           <Node>
-            <Name>TCP_TIMEOUT_TIME</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gab1edbb864391382835b9ad71408c5c53</Anchor>
-           </Node>
-           <Node>
-            <Name>UDP_TIMEOUT_TIME</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaac9f4a449d302b4f39e69a14b3a4c8d5</Anchor>
-           </Node>
-           <Node>
-            <Name>UNEXPECTED_MESSAGE</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae2e1a44a10d4219f4645a4e99fee009c</Anchor>
-           </Node>
-           <Node>
-            <Name>WRONG_SERVER</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga5a6c87886a0136b58ae5bb1d627c7ae3</Anchor>
-           </Node>
-           <Node>
             <Name>federate_instance_t</Name>
             <Path>group__Federated.html</Path>
             <Anchor>ga675c841ec6a29e45cacc71b61ef8d270</Anchor>
@@ -4293,19 +4052,9 @@
             <Anchor>ga98d812b2acffbba5c8b1b72913513d19</Anchor>
            </Node>
            <Node>
-            <Name>rti_addr_info_t</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaf820f39ab52ce0a58d7ba739051b8f24</Anchor>
-           </Node>
-           <Node>
             <Name>socket_stat_t</Name>
             <Path>group__Federated.html</Path>
             <Anchor>ga7e49fed082ec884e26d761e1c4f0d428</Anchor>
-           </Node>
-           <Node>
-            <Name>socket_type_t</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga45bb50f52b617bc6a30719cbaafd075d</Anchor>
            </Node>
            <Node>
             <Name>staa_t</Name>
@@ -4345,28 +4094,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>socket_type_t</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga54c375e3893ff5969d20df65b90c8335</Anchor>
-          <Subnodes>
-             <Node>
-              <Name>TCP</Name>
-              <Path>group__Federated.html</Path>
-              <Anchor>gga54c375e3893ff5969d20df65b90c8335aa040cd7feeb588104634cdadf35abf1c</Anchor>
-             </Node>
-             <Node>
-              <Name>UDP</Name>
-              <Path>group__Federated.html</Path>
-              <Anchor>gga54c375e3893ff5969d20df65b90c8335adb542475cf9d0636e4225e216cee9ae6</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>accept_socket</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga3f3dfc2ccd62e181467f7a22ab5ebe49</Anchor>
-           </Node>
-           <Node>
             <Name>clock_sync_add_offset</Name>
             <Path>group__Federated.html</Path>
             <Anchor>ga6b3edec4d337711a2e914c9f5581ce1c</Anchor>
@@ -4382,114 +4109,19 @@
             <Anchor>gaf5fb44eb0db80b9dfa61399bdab8b85c</Anchor>
            </Node>
            <Node>
-            <Name>connect_to_socket</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga5ac5b1b8bf1c832cbdd2f6cdbb769df8</Anchor>
-           </Node>
-           <Node>
             <Name>create_clock_sync_thread</Name>
             <Path>group__Federated.html</Path>
             <Anchor>gac094b53ced87d3cbd617a66591f4282a</Anchor>
            </Node>
            <Node>
-            <Name>create_real_time_tcp_socket_errexit</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga10b0373c1cff0213b17cb7308949f0a2</Anchor>
-           </Node>
-           <Node>
-            <Name>create_server</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga94aaee169c4c822e4c9e6a73f59a6952</Anchor>
-           </Node>
-           <Node>
-            <Name>encode_int32</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gafc6b3d0e0e777738422c11fa07b35e0f</Anchor>
-           </Node>
-           <Node>
-            <Name>encode_int64</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae233fa02382ed619a78b1c32e14a8657</Anchor>
-           </Node>
-           <Node>
-            <Name>encode_tag</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga7b5ae6582f28e14a37d50a2d243613c5</Anchor>
-           </Node>
-           <Node>
-            <Name>encode_uint16</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gafad4dadc9bbc06596be44e7ecc4c7281</Anchor>
-           </Node>
-           <Node>
-            <Name>encode_uint32</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga9b75c9d94d4f3d34d52f46c65cf950d4</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_header</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga82060dae45e1c3b922005e56829c9814</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_int32</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga8f772b5761c6b74b4136db6ee021e6c5</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_int64</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga8decc0f4a38aa42fbc6ccfb029e3a061</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_match_group</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga8ec38908b111a79943446bfbdec188f0</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_match_groups</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga50c7f94caa2a61bcba5f89535da07036</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_rti_addr_info</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga0737fc3d45aae606811f57a16ad87208</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_tag</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga9cd95311c2c29ce5bed1c44d5336584d</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_timed_header</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga8e2cc45fc8571af05bb05f4952d4cde5</Anchor>
-           </Node>
-           <Node>
-            <Name>extract_uint16</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga1686d838d49741a6ff2ee65bd766a987</Anchor>
-           </Node>
-           <Node>
             <Name>handle_T1_clock_sync_message</Name>
             <Path>group__Federated.html</Path>
-            <Anchor>gace14df89540b56b069c6c619e8f37493</Anchor>
+            <Anchor>ga9a5e16b3705dd53c5a2e59a3acbf1edb</Anchor>
            </Node>
            <Node>
             <Name>handle_T4_clock_sync_message</Name>
             <Path>group__Federated.html</Path>
-            <Anchor>ga1b35d21eda090ea4bf8a79f401dbdad0</Anchor>
-           </Node>
-           <Node>
-            <Name>host_is_big_endian</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gad791461950852eb074b90bc75156b413</Anchor>
-           </Node>
-           <Node>
-            <Name>init_shutdown_mutex</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gadc2dc02aa0e242eab3574240e90984b4</Anchor>
+            <Anchor>gaed582f6b18142dab9c3e607f240d9f62</Anchor>
            </Node>
            <Node>
             <Name>lf_connect_to_federate</Name>
@@ -4549,7 +4181,7 @@
            <Node>
             <Name>lf_send_neighbor_structure_to_RTI</Name>
             <Path>group__Federated.html</Path>
-            <Anchor>ga131226459d7dacc6068c0a6d1d9ebde1</Anchor>
+            <Anchor>gadd3ee252de10afabeca8110aadff2635</Anchor>
            </Node>
            <Node>
             <Name>lf_send_next_event_tag</Name>
@@ -4617,31 +4249,6 @@
             <Anchor>gaa0c8d0811c7faae11b9f1a7fcb30f917</Anchor>
            </Node>
            <Node>
-            <Name>match_regex</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga7a568c79c856e633f5f181dd21700b74</Anchor>
-           </Node>
-           <Node>
-            <Name>peek_from_socket</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae4ba6b1361cd7c47e8a0eb70729d9636</Anchor>
-           </Node>
-           <Node>
-            <Name>read_from_socket</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaa8f7af0d4004aa925499fecefa1ac6b8</Anchor>
-           </Node>
-           <Node>
-            <Name>read_from_socket_close_on_error</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga941fd71700b7646e6edbbb76db4f7bd2</Anchor>
-           </Node>
-           <Node>
-            <Name>read_from_socket_fail_on_error</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga46a44d92c24d3caadec0bc9e59a26361</Anchor>
-           </Node>
-           <Node>
             <Name>reset_socket_stat</Name>
             <Path>group__Federated.html</Path>
             <Anchor>gae267d03a5f2263604459ca4c1aef2c2c</Anchor>
@@ -4652,29 +4259,9 @@
             <Anchor>ga834b31e00e677a23b6a86119b7a2fe59</Anchor>
            </Node>
            <Node>
-            <Name>shutdown_socket</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga365eba5b8b3f6445eeaffcb4435165c5</Anchor>
-           </Node>
-           <Node>
-            <Name>swap_bytes_if_big_endian_int32</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaeaff8773e0cba7d0f8a6d03b8f0f7766</Anchor>
-           </Node>
-           <Node>
-            <Name>swap_bytes_if_big_endian_int64</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaa548ffc52c264f564127b80f63170c33</Anchor>
-           </Node>
-           <Node>
-            <Name>swap_bytes_if_big_endian_uint16</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga48fa075b3a868790da8fb303a397cd60</Anchor>
-           </Node>
-           <Node>
             <Name>synchronize_initial_physical_clock_with_rti</Name>
             <Path>group__Federated.html</Path>
-            <Anchor>ga3eba5f95a19f86a70d9d11fd2c736dd1</Anchor>
+            <Anchor>ga81643c3ea545b727bba5c1e9623ca068</Anchor>
            </Node>
            <Node>
             <Name>tracepoint_federate_from_federate</Name>
@@ -4697,39 +4284,9 @@
             <Anchor>gaa074cf1f2690197f9edfd7a115381d6a</Anchor>
            </Node>
            <Node>
-            <Name>validate_host</Name>
+            <Name>lf_outbound_net_mutex</Name>
             <Path>group__Federated.html</Path>
-            <Anchor>ga0f6ec1479ffe28cc089fe6b13e675f0e</Anchor>
-           </Node>
-           <Node>
-            <Name>validate_port</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga841bec9ddc3fb61c2b615f5d512dc3f0</Anchor>
-           </Node>
-           <Node>
-            <Name>validate_user</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga1285f4b0283c8e0c020e12e76a4426c2</Anchor>
-           </Node>
-           <Node>
-            <Name>write_to_socket</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gae8d4b83faeac37f665666429742813f9</Anchor>
-           </Node>
-           <Node>
-            <Name>write_to_socket_close_on_error</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gaf88884c303b81143ef5ab7af4683a66c</Anchor>
-           </Node>
-           <Node>
-            <Name>write_to_socket_fail_on_error</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>gada8d9360bdf4e9d7f36bbfc7e682f06e</Anchor>
-           </Node>
-           <Node>
-            <Name>lf_outbound_socket_mutex</Name>
-            <Path>group__Federated.html</Path>
-            <Anchor>ga1881fdaaffead81a8d2993121d9cd78f</Anchor>
+            <Anchor>ga11533680dc94241a7073fe9ff45900f4</Anchor>
            </Node>
            <Node>
             <Name>lf_port_status_changed</Name>
@@ -5104,6 +4661,11 @@
               <Anchor>ggab02e9e69539d60297cedb38c2193a453a4ebac2f241a667876f0a7ab20a8efdec</Anchor>
              </Node>
              <Node>
+              <Name>send_ADR_QR_REP</Name>
+              <Path>group__Tracing.html</Path>
+              <Anchor>ggab02e9e69539d60297cedb38c2193a453a73ff55a6e4eeb9b6beb1ee48ff38a278</Anchor>
+             </Node>
+             <Node>
               <Name>send_DNET</Name>
               <Path>group__Tracing.html</Path>
               <Anchor>ggab02e9e69539d60297cedb38c2193a453afd2cdb4240669a883e88c58b28b470cd</Anchor>
@@ -5212,6 +4774,11 @@
               <Name>receive_ADR_QR</Name>
               <Path>group__Tracing.html</Path>
               <Anchor>ggab02e9e69539d60297cedb38c2193a453af6e18bcb48b442e2be5a898d60c3bdf2</Anchor>
+             </Node>
+             <Node>
+              <Name>receive_ADR_QR_REP</Name>
+              <Path>group__Tracing.html</Path>
+              <Anchor>ggab02e9e69539d60297cedb38c2193a453a6d3e3d6b5c7fb851c6633d9ec4cac884</Anchor>
              </Node>
              <Node>
               <Name>receive_DNET</Name>
@@ -5398,29 +4965,14 @@
               <Anchor>aa643bb07575eca7bf9c5665377442369</Anchor>
              </Node>
              <Node>
+              <Name>net</Name>
+              <Path>structfederate__info__t.html</Path>
+              <Anchor>a8afb9d8bb911680499970b1de3fbdf93</Anchor>
+             </Node>
+             <Node>
               <Name>requested_stop</Name>
               <Path>structfederate__info__t.html</Path>
               <Anchor>af1264d573e3ada0d716c64cfa4f26b36</Anchor>
-             </Node>
-             <Node>
-              <Name>server_hostname</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>ac1a52d02c1f668f6421e31d4dd144d82</Anchor>
-             </Node>
-             <Node>
-              <Name>server_ip_addr</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>aa9400fd6abe91530dcf2efb682aaeb15</Anchor>
-             </Node>
-             <Node>
-              <Name>server_port</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>adefac36562f7dfcc97f6e1138754f6ca</Anchor>
-             </Node>
-             <Node>
-              <Name>socket</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>a4ecfa6d90654e5b3d46207453d3562e5</Anchor>
              </Node>
              <Node>
               <Name>thread_id</Name>
@@ -5552,11 +5104,6 @@
               <Anchor>aa6ebdbc41ba330fc7d23f478bf62d7ea</Anchor>
              </Node>
              <Node>
-              <Name>final_port_TCP</Name>
-              <Path>structrti__remote__t.html</Path>
-              <Anchor>af398be0ec31a58806d978a0670b59fac</Anchor>
-             </Node>
-             <Node>
               <Name>final_port_UDP</Name>
               <Path>structrti__remote__t.html</Path>
               <Anchor>a313ec8858bdf1eb12c8a24c17290afb2</Anchor>
@@ -5572,9 +5119,9 @@
               <Anchor>a1c695fdf2ff3d64f7599887ce525d64d</Anchor>
              </Node>
              <Node>
-              <Name>socket_descriptor_TCP</Name>
+              <Name>rti_net</Name>
               <Path>structrti__remote__t.html</Path>
-              <Anchor>a092fe7859e3ead8ad646a848ef6282e7</Anchor>
+              <Anchor>abf6767b1b9d02eb2f868900104dfd8c0</Anchor>
              </Node>
              <Node>
               <Name>socket_descriptor_UDP</Name>
@@ -5923,7 +5470,7 @@
            <Node>
             <Name>lf_connect_to_federates</Name>
             <Path>group__RTI.html</Path>
-            <Anchor>ga52a9225745a4b229aee86fcc4617b904</Anchor>
+            <Anchor>ga14c897c9da2160d4aceff4751822eced</Anchor>
            </Node>
            <Node>
             <Name>lf_get_downstream_of</Name>
@@ -6003,12 +5550,12 @@
            <Node>
             <Name>send_reject</Name>
             <Path>group__RTI.html</Path>
-            <Anchor>gac1d01420f22f3dc5dbdef49ffebdb443</Anchor>
+            <Anchor>ga614f81fe705224534d84b97254030fa1</Anchor>
            </Node>
            <Node>
             <Name>start_rti_server</Name>
             <Path>group__RTI.html</Path>
-            <Anchor>ga6cc1fe69c154d09d88de1f1c06eb4b0d</Anchor>
+            <Anchor>gadfcb2fedc086ab63276bfc442efa488d</Anchor>
            </Node>
            <Node>
             <Name>tag_advance_grant_if_safe</Name>
@@ -6048,7 +5595,7 @@
            <Node>
             <Name>wait_for_federates</Name>
             <Path>group__RTI.html</Path>
-            <Anchor>ga005cb43e8e6c7795c8f0db27e2424475</Anchor>
+            <Anchor>ga54b6796240cd61f06bb111f6f29e2997</Anchor>
            </Node>
           </Subnodes>
          </Node>
@@ -6367,29 +5914,14 @@
               <Anchor>aa643bb07575eca7bf9c5665377442369</Anchor>
              </Node>
              <Node>
+              <Name>net</Name>
+              <Path>structfederate__info__t.html</Path>
+              <Anchor>a8afb9d8bb911680499970b1de3fbdf93</Anchor>
+             </Node>
+             <Node>
               <Name>requested_stop</Name>
               <Path>structfederate__info__t.html</Path>
               <Anchor>af1264d573e3ada0d716c64cfa4f26b36</Anchor>
-             </Node>
-             <Node>
-              <Name>server_hostname</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>ac1a52d02c1f668f6421e31d4dd144d82</Anchor>
-             </Node>
-             <Node>
-              <Name>server_ip_addr</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>aa9400fd6abe91530dcf2efb682aaeb15</Anchor>
-             </Node>
-             <Node>
-              <Name>server_port</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>adefac36562f7dfcc97f6e1138754f6ca</Anchor>
-             </Node>
-             <Node>
-              <Name>socket</Name>
-              <Path>structfederate__info__t.html</Path>
-              <Anchor>a4ecfa6d90654e5b3d46207453d3562e5</Anchor>
              </Node>
              <Node>
               <Name>thread_id</Name>
@@ -6418,14 +5950,14 @@
               <Anchor>a603662cf0155920b8a76659e7dacb9ef</Anchor>
              </Node>
              <Node>
+              <Name>inbound_net_listeners</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>a1362fc33bd9e33cde9349445431dfc9c</Anchor>
+             </Node>
+             <Node>
               <Name>inbound_p2p_handling_thread_id</Name>
               <Path>structfederate__instance__t.html</Path>
               <Anchor>ab441abf042a2ff79099bdf2860aeb058</Anchor>
-             </Node>
-             <Node>
-              <Name>inbound_socket_listeners</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>ac751250db764f954659deb15f1427044</Anchor>
              </Node>
              <Node>
               <Name>is_last_TAG_provisional</Name>
@@ -6463,6 +5995,21 @@
               <Anchor>a91a34b0d7f0f604c2f21cf062dbe0314</Anchor>
              </Node>
              <Node>
+              <Name>net_for_inbound_p2p_connections</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>a4ab5d26002d2de1b954eee6c5bafdf38</Anchor>
+             </Node>
+             <Node>
+              <Name>net_for_outbound_p2p_connections</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>abc66dce37557448ff93ecc4bdf329b76</Anchor>
+             </Node>
+             <Node>
+              <Name>net_to_RTI</Name>
+              <Path>structfederate__instance__t.html</Path>
+              <Anchor>a434d15925fe4c0721a2c1685102ae823</Anchor>
+             </Node>
+             <Node>
               <Name>number_of_inbound_p2p_connections</Name>
               <Path>structfederate__instance__t.html</Path>
               <Anchor>a6b728a970ccb1ef778dbb9779582d2f2</Anchor>
@@ -6483,34 +6030,14 @@
               <Anchor>ae9ecde30fae3a2487757a7bbb33e918e</Anchor>
              </Node>
              <Node>
-              <Name>RTI_socket_listener</Name>
+              <Name>RTI_net_listener</Name>
               <Path>structfederate__instance__t.html</Path>
-              <Anchor>a5b6b4b5912a7bb7df1c8987f38e12004</Anchor>
+              <Anchor>a4e61aad7155ef98a682aeaa89dd04c14</Anchor>
              </Node>
              <Node>
-              <Name>server_port</Name>
+              <Name>server_net</Name>
               <Path>structfederate__instance__t.html</Path>
-              <Anchor>a309c9672d657f20cd1d3661edc7d5179</Anchor>
-             </Node>
-             <Node>
-              <Name>server_socket</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>a20c5d19d5166ec82a09efe072c2f1b49</Anchor>
-             </Node>
-             <Node>
-              <Name>socket_TCP_RTI</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>aacdc19a638ccdc9fae494ce641f4cb04</Anchor>
-             </Node>
-             <Node>
-              <Name>sockets_for_inbound_p2p_connections</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>ac22a97892260d332da6f05194c280f9c</Anchor>
-             </Node>
-             <Node>
-              <Name>sockets_for_outbound_p2p_connections</Name>
-              <Path>structfederate__instance__t.html</Path>
-              <Anchor>aa4fcfa96a7c2bfd33cf45ddc43ad3437</Anchor>
+              <Anchor>a44bfdad9ab6659ca07fb6c3339971630</Anchor>
              </Node>
              <Node>
               <Name>staaSetter</Name>
@@ -6765,6 +6292,42 @@
               <Name>trigger</Name>
               <Path>structlf__action__internal__t.html</Path>
               <Anchor>a0f59c9d0f5520d8f5a733bfa9ee41930</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>lf_cli_param_t</Name>
+            <Path>structlf__cli__param__t.html</Path>
+          <Subnodes>
+             <Node>
+              <Name>description</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>ac4dc5b328292f7ad68e8e90badb724d0</Anchor>
+             </Node>
+             <Node>
+              <Name>given</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a7c6500f889e4206793504df3844bd680</Anchor>
+             </Node>
+             <Node>
+              <Name>is_width</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a76314e729d4c6a7ed7fd5e709d25a481</Anchor>
+             </Node>
+             <Node>
+              <Name>name</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a2bd92664043e3009e4a561a72969d9d1</Anchor>
+             </Node>
+             <Node>
+              <Name>type</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>a86ef934906092ac28147194150decdc0</Anchor>
+             </Node>
+             <Node>
+              <Name>value</Name>
+              <Path>structlf__cli__param__t.html</Path>
+              <Anchor>aa3c80a588b22ee064941e376fea3a49e</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7420,42 +6983,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>rti_addr_info_t</Name>
-            <Path>structrti__addr__info__t.html</Path>
-          <Subnodes>
-             <Node>
-              <Name>has_host</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a73312cb4f806de3a9b23eb811861ac24</Anchor>
-             </Node>
-             <Node>
-              <Name>has_port</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a814382a63d0c415566268997e7e2c238</Anchor>
-             </Node>
-             <Node>
-              <Name>has_user</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a66ce998dc61ba1e1a939c18cb79ae9af</Anchor>
-             </Node>
-             <Node>
-              <Name>rti_host_str</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>ab67e59a55eda384237ee0c01b161808c</Anchor>
-             </Node>
-             <Node>
-              <Name>rti_port_str</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a182bcc2f25e999e33b4065115287a6a0</Anchor>
-             </Node>
-             <Node>
-              <Name>rti_user_str</Name>
-              <Path>structrti__addr__info__t.html</Path>
-              <Anchor>a3604fd6c5f95ce9afa7afcb188093ac8</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>rti_common_t</Name>
             <Path>structrti__common__t.html</Path>
           <Subnodes>
@@ -7557,11 +7084,6 @@
               <Anchor>aa6ebdbc41ba330fc7d23f478bf62d7ea</Anchor>
              </Node>
              <Node>
-              <Name>final_port_TCP</Name>
-              <Path>structrti__remote__t.html</Path>
-              <Anchor>af398be0ec31a58806d978a0670b59fac</Anchor>
-             </Node>
-             <Node>
               <Name>final_port_UDP</Name>
               <Path>structrti__remote__t.html</Path>
               <Anchor>a313ec8858bdf1eb12c8a24c17290afb2</Anchor>
@@ -7577,9 +7099,9 @@
               <Anchor>a1c695fdf2ff3d64f7599887ce525d64d</Anchor>
              </Node>
              <Node>
-              <Name>socket_descriptor_TCP</Name>
+              <Name>rti_net</Name>
               <Path>structrti__remote__t.html</Path>
-              <Anchor>a092fe7859e3ead8ad646a848ef6282e7</Anchor>
+              <Anchor>abf6767b1b9d02eb2f868900104dfd8c0</Anchor>
              </Node>
              <Node>
               <Name>socket_descriptor_UDP</Name>
@@ -8740,7 +8262,7 @@
                              <Node>
                               <Name>lf_connect_to_federates</Name>
                               <Path>group__RTI.html</Path>
-                              <Anchor>ga52a9225745a4b229aee86fcc4617b904</Anchor>
+                              <Anchor>ga14c897c9da2160d4aceff4751822eced</Anchor>
                              </Node>
                              <Node>
                               <Name>lf_critical_section_enter</Name>
@@ -8775,12 +8297,12 @@
                              <Node>
                               <Name>send_reject</Name>
                               <Path>group__RTI.html</Path>
-                              <Anchor>gac1d01420f22f3dc5dbdef49ffebdb443</Anchor>
+                              <Anchor>ga614f81fe705224534d84b97254030fa1</Anchor>
                              </Node>
                              <Node>
                               <Name>start_rti_server</Name>
                               <Path>group__RTI.html</Path>
-                              <Anchor>ga6cc1fe69c154d09d88de1f1c06eb4b0d</Anchor>
+                              <Anchor>gadfcb2fedc086ab63276bfc442efa488d</Anchor>
                              </Node>
                              <Node>
                               <Name>update_federate_next_event_tag_locked</Name>
@@ -8795,7 +8317,7 @@
                              <Node>
                               <Name>wait_for_federates</Name>
                               <Path>group__RTI.html</Path>
-                              <Anchor>ga005cb43e8e6c7795c8f0db27e2424475</Anchor>
+                              <Anchor>ga54b6796240cd61f06bb111f6f29e2997</Anchor>
                              </Node>
                              <Node>
                               <Name>_lf_federate_reports_error</Name>
@@ -8957,557 +8479,6 @@
                           <Path>dir_e0b79ab85e892bf9453f746580791e50.html</Path>
                         <Subnodes>
                            <Node>
-                            <Name>network</Name>
-                            <Path>dir_923a8cfe9e7422391fb9e4b64cd33eea.html</Path>
-                          <Subnodes>
-                             <Node>
-                              <Name>net_common.h</Name>
-                              <Path>net__common_8h.html</Path>
-                            <Subnodes>
-                               <Node>
-                                <Name>ADDRESS_QUERY_RETRY_INTERVAL</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga8ce563da4edbe9c4f7c1ccf35ad8694f</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>DELAY_START</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga4b8c713b515dba0c86d9205dc0caf4ed</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>ENCODE_STOP_GRANTED</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga8086398bfefdc0104767df037e59daa5</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>ENCODE_STOP_REQUEST</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga3268a658c2cb5126be5284a86ad9bd62</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>ENCODE_STOP_REQUEST_REPLY</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae06b33f7fcdc71f52eb0fcf81e07e4d6</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>FED_COM_BUFFER_SIZE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gacc95612e1d2dbbdf34afe76d50e75223</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>FEDERATE_ID_IN_USE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae3bd830cd17cf0914b61d0516360abc1</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>FEDERATE_ID_OUT_OF_RANGE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga5846fdcf4c92041f543b73e29e78aa21</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>FEDERATION_ID_DOES_NOT_MATCH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga653676d1f302fe08249af3dee78fa294</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>HMAC_DOES_NOT_MATCH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga51d08a784b4ee6463688a971d99d2944</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_ACK</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gad94567b2d2e277ddc1be0da9a92b09e7</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_ADDRESS_ADVERTISEMENT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae004cb4e5add42afe5483f6706e11d35</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_ADDRESS_QUERY</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga5ac191bca25da16eca3e4f02d21172ef</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_ADDRESS_QUERY_REPLY</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaabe4cac3ef1d0834a99fa2532dfaa6ba</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_CLOCK_SYNC_CODED_PROBE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaa13eface5080ad75bbd53abe919c80b6</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_CLOCK_SYNC_T1</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaea37eff76ade1b2781a7e6298afb3a04</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_CLOCK_SYNC_T3</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga52a76e4cc36217a169f32d5adde590cc</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_CLOCK_SYNC_T4</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae128056ab2af39988103856ee815d930</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_DOWNSTREAM_NEXT_EVENT_TAG</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gafb060091e032562cf32c0eb62340d309</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_FAILED</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaf27674f627be1c469a529a995da5c074</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_FED_IDS</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga8e49ce0b1c3a58c881849ca4d0bae824</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_FED_NONCE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga191b27bec42ab0370248fbc64cc9b860</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_FED_RESPONSE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gacd7e1e07253e568044a204a1f82d36a1</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_LATEST_TAG_CONFIRMED</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gada47c9f6736992a3df380526d87089f9</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_MESSAGE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gac79b5228f132029285408a30a31a174e</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_NEIGHBOR_STRUCTURE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga48ec489cb1543b161c262f4bee6c9598</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_NEIGHBOR_STRUCTURE_HEADER_SIZE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga77a9c1b741d7ca0f4e8d00a5b74ef91e</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_NEXT_EVENT_TAG</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaf662a6a84cd64cddad92e20e26af877e</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_P2P_MESSAGE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga2b9f13f8df66448bf81ac5fe0774c124</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_P2P_SENDING_FED_ID</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gacd33bbab7bf74e5ac8bad3bd27145f8b</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_P2P_TAGGED_MESSAGE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga5c1256c8c62fbbcb1b16ea67d8f529fb</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_PORT_ABSENT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gadb9610b1edbee4c85e194e391a6eeb74</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_PROVISIONAL_TAG_ADVANCE_GRANT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga9a9bb60d4df1ba581a29319850097cc2</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_REJECT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga59a69d0685fdc2a216718f1efa083c4c</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_RESIGN</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga9e19e307a4c3a9dbccea4f2539cd67dd</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_RTI_RESPONSE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga20f24b4b20547d44523120689afd9b98</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_STOP_GRANTED</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaad37dd00423e88f213ca7d7d238bce2e</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_STOP_GRANTED_LENGTH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga76275384e9865f1f1ed32408c03d876a</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_STOP_REQUEST</Name>
-                                <Path>net__common_8h.html</Path>
-                                <Anchor>a8588a57a3ae81bf33c740dfc57103a23</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_STOP_REQUEST_LENGTH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaa3ed75054ae1aaa64dafa6399f7a23cb</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_STOP_REQUEST_REPLY</Name>
-                                <Path>net__common_8h.html</Path>
-                                <Anchor>adbe10e103635ee7ec4bca3226ccebc56</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_STOP_REQUEST_REPLY_LENGTH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaa62d9986e928cb5e872caa6a509cae6c</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_TAG_ADVANCE_GRANT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga94fe2c510160682b2c0ffc00b35e0ad5</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_TAGGED_MESSAGE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga2922af172f2e95bc73bd0675a4107b3b</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_TIMESTAMP</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga27db349e7460afc1758bf2eec95d7005</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_TIMESTAMP_LENGTH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga3450aedd1ca1c368ed28ed2e859588ef</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_UDP_PORT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae2c2fdb5fbcc47750409348d37b0cd78</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>NONCE_LENGTH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga6771c37605e49c8faae7898797f254b7</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>RTI_NOT_EXECUTED_WITH_AUTH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae546b6c6176fe607616181e144364f2b</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>SHA256_HMAC_LENGTH</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gabd435507a255ff2571133013bdf93bd2</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>UNEXPECTED_MESSAGE</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae2e1a44a10d4219f4645a4e99fee009c</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>WRONG_SERVER</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga5a6c87886a0136b58ae5bb1d627c7ae3</Anchor>
-                               </Node>
-                              </Subnodes>
-                             </Node>
-                             <Node>
-                              <Name>net_util.h</Name>
-                              <Path>net__util_8h.html</Path>
-                            <Subnodes>
-                               <Node>
-                                <Name>HOST_BIG_ENDIAN</Name>
-                                <Path>net__util_8h.html</Path>
-                                <Anchor>a18c839c3ef122fe4ecc7b907ea688a97</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>HOST_LITTLE_ENDIAN</Name>
-                                <Path>net__util_8h.html</Path>
-                                <Anchor>ae0b024f7ee4bd875149b1a0a50c20b0a</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>rti_addr_info_t</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaf820f39ab52ce0a58d7ba739051b8f24</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>encode_int32</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gafc6b3d0e0e777738422c11fa07b35e0f</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>encode_int64</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae233fa02382ed619a78b1c32e14a8657</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>encode_tag</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga7b5ae6582f28e14a37d50a2d243613c5</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>encode_uint16</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gafad4dadc9bbc06596be44e7ecc4c7281</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>encode_uint32</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga9b75c9d94d4f3d34d52f46c65cf950d4</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_header</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga82060dae45e1c3b922005e56829c9814</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_int32</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga8f772b5761c6b74b4136db6ee021e6c5</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_int64</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga8decc0f4a38aa42fbc6ccfb029e3a061</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_match_group</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga8ec38908b111a79943446bfbdec188f0</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_match_groups</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga50c7f94caa2a61bcba5f89535da07036</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_rti_addr_info</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga0737fc3d45aae606811f57a16ad87208</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_tag</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga9cd95311c2c29ce5bed1c44d5336584d</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_timed_header</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga8e2cc45fc8571af05bb05f4952d4cde5</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>extract_uint16</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga1686d838d49741a6ff2ee65bd766a987</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>host_is_big_endian</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gad791461950852eb074b90bc75156b413</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>match_regex</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga7a568c79c856e633f5f181dd21700b74</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>swap_bytes_if_big_endian_int32</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaeaff8773e0cba7d0f8a6d03b8f0f7766</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>swap_bytes_if_big_endian_int64</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaa548ffc52c264f564127b80f63170c33</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>swap_bytes_if_big_endian_uint16</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga48fa075b3a868790da8fb303a397cd60</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>validate_host</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga0f6ec1479ffe28cc089fe6b13e675f0e</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>validate_port</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga841bec9ddc3fb61c2b615f5d512dc3f0</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>validate_user</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga1285f4b0283c8e0c020e12e76a4426c2</Anchor>
-                               </Node>
-                              </Subnodes>
-                             </Node>
-                             <Node>
-                              <Name>socket_common.h</Name>
-                              <Path>socket__common_8h.html</Path>
-                            <Subnodes>
-                               <Node>
-                                <Name>CONNECT_RETRY_INTERVAL</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gab2106828de539188aed925f592751c12</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>CONNECT_TIMEOUT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga252b2cb72531cb00ecd4d4db37a5a473</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>DEFAULT_PORT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga16b710f592bf8f7900666392adc444dc</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>DELAY_BETWEEN_SOCKET_RETRIES</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga7b7cd916c6c027dc9ebdff449fb6edad</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MAX_NUM_PORT_ADDRESSES</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga5dbc42b5857eb262a06aa04399475d16</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>MSG_TYPE_FAILED</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaf27674f627be1c469a529a995da5c074</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>NUMBER_OF_FEDERATES</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaf58c457e08491f7cfd5a0a46940e11ad</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>PORT_BIND_RETRY_INTERVAL</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaf11c9d6cd02e9e78e38a848cf75205cb</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>PORT_BIND_RETRY_LIMIT</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga04c08dc0b0733010f3190bf6df123433</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>TCP_TIMEOUT_TIME</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gab1edbb864391382835b9ad71408c5c53</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>UDP_TIMEOUT_TIME</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaac9f4a449d302b4f39e69a14b3a4c8d5</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>socket_type_t</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga45bb50f52b617bc6a30719cbaafd075d</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>socket_type_t</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga54c375e3893ff5969d20df65b90c8335</Anchor>
-                              <Subnodes>
-                                 <Node>
-                                  <Name>TCP</Name>
-                                  <Path>group__Federated.html</Path>
-                                  <Anchor>gga54c375e3893ff5969d20df65b90c8335aa040cd7feeb588104634cdadf35abf1c</Anchor>
-                                 </Node>
-                                 <Node>
-                                  <Name>UDP</Name>
-                                  <Path>group__Federated.html</Path>
-                                  <Anchor>gga54c375e3893ff5969d20df65b90c8335adb542475cf9d0636e4225e216cee9ae6</Anchor>
-                                 </Node>
-                                </Subnodes>
-                               </Node>
-                               <Node>
-                                <Name>accept_socket</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga3f3dfc2ccd62e181467f7a22ab5ebe49</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>connect_to_socket</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga5ac5b1b8bf1c832cbdd2f6cdbb769df8</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>create_real_time_tcp_socket_errexit</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga10b0373c1cff0213b17cb7308949f0a2</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>create_server</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga94aaee169c4c822e4c9e6a73f59a6952</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>init_shutdown_mutex</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gadc2dc02aa0e242eab3574240e90984b4</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>peek_from_socket</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae4ba6b1361cd7c47e8a0eb70729d9636</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>read_from_socket</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaa8f7af0d4004aa925499fecefa1ac6b8</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>read_from_socket_close_on_error</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga941fd71700b7646e6edbbb76db4f7bd2</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>read_from_socket_fail_on_error</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga46a44d92c24d3caadec0bc9e59a26361</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>shutdown_socket</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>ga365eba5b8b3f6445eeaffcb4435165c5</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>write_to_socket</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gae8d4b83faeac37f665666429742813f9</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>write_to_socket_close_on_error</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gaf88884c303b81143ef5ab7af4683a66c</Anchor>
-                               </Node>
-                               <Node>
-                                <Name>write_to_socket_fail_on_error</Name>
-                                <Path>group__Federated.html</Path>
-                                <Anchor>gada8d9360bdf4e9d7f36bbfc7e682f06e</Anchor>
-                               </Node>
-                              </Subnodes>
-                             </Node>
-                            </Subnodes>
-                           </Node>
-                           <Node>
                             <Name>clock-sync.h</Name>
                             <Path>clock-sync_8h.html</Path>
                           <Subnodes>
@@ -9584,12 +8555,12 @@
                              <Node>
                               <Name>handle_T1_clock_sync_message</Name>
                               <Path>group__Federated.html</Path>
-                              <Anchor>gace14df89540b56b069c6c619e8f37493</Anchor>
+                              <Anchor>ga9a5e16b3705dd53c5a2e59a3acbf1edb</Anchor>
                              </Node>
                              <Node>
                               <Name>handle_T4_clock_sync_message</Name>
                               <Path>group__Federated.html</Path>
-                              <Anchor>ga1b35d21eda090ea4bf8a79f401dbdad0</Anchor>
+                              <Anchor>gaed582f6b18142dab9c3e607f240d9f62</Anchor>
                              </Node>
                              <Node>
                               <Name>reset_socket_stat</Name>
@@ -9604,7 +8575,7 @@
                              <Node>
                               <Name>synchronize_initial_physical_clock_with_rti</Name>
                               <Path>group__Federated.html</Path>
-                              <Anchor>ga3eba5f95a19f86a70d9d11fd2c736dd1</Anchor>
+                              <Anchor>ga81643c3ea545b727bba5c1e9623ca068</Anchor>
                              </Node>
                             </Subnodes>
                            </Node>
@@ -9717,7 +8688,7 @@
                              <Node>
                               <Name>lf_send_neighbor_structure_to_RTI</Name>
                               <Path>group__Federated.html</Path>
-                              <Anchor>ga131226459d7dacc6068c0a6d1d9ebde1</Anchor>
+                              <Anchor>gadd3ee252de10afabeca8110aadff2635</Anchor>
                              </Node>
                              <Node>
                               <Name>lf_send_next_event_tag</Name>
@@ -9775,9 +8746,9 @@
                               <Anchor>gaa0c8d0811c7faae11b9f1a7fcb30f917</Anchor>
                              </Node>
                              <Node>
-                              <Name>lf_outbound_socket_mutex</Name>
+                              <Name>lf_outbound_net_mutex</Name>
                               <Path>group__Federated.html</Path>
-                              <Anchor>ga1881fdaaffead81a8d2993121d9cd78f</Anchor>
+                              <Anchor>ga11533680dc94241a7073fe9ff45900f4</Anchor>
                              </Node>
                              <Node>
                               <Name>lf_port_status_changed</Name>
@@ -10620,7 +9591,7 @@
                              <Node>
                               <Name>error</Name>
                               <Path>group__Internal.html</Path>
-                              <Anchor>ga8db9f1cd3ea7eb70e6958e732b26e61d</Anchor>
+                              <Anchor>ga73dce66b0161fa5da8bb2a1bcc8d3101</Anchor>
                              </Node>
                              <Node>
                               <Name>lf_fed_id</Name>
@@ -10635,7 +9606,7 @@
                              <Node>
                               <Name>lf_vprint_debug</Name>
                               <Path>group__Internal.html</Path>
-                              <Anchor>ga334870b12bd4bc49b9da219e31225477</Anchor>
+                              <Anchor>gaec240098951eda60632ee6283450dbf0</Anchor>
                              </Node>
                              <Node>
                               <Name>lf_vprint_error</Name>
@@ -10648,9 +9619,14 @@
                               <Anchor>ga698eb7c2ecf514b4afa1ab7ab598eea2</Anchor>
                              </Node>
                              <Node>
+                              <Name>lf_vprint_info</Name>
+                              <Path>group__Internal.html</Path>
+                              <Anchor>ga136068c8a901039b20f0bd1e552d6885</Anchor>
+                             </Node>
+                             <Node>
                               <Name>lf_vprint_log</Name>
                               <Path>group__Internal.html</Path>
-                              <Anchor>ga8432a03751d354b69ffe2f5b8c664654</Anchor>
+                              <Anchor>ga0b410cbb25ceba53293a3cee9d64aab0</Anchor>
                              </Node>
                              <Node>
                               <Name>lf_vprint_warning</Name>
@@ -11284,6 +10260,43 @@
                             <Anchor>ga3b755b6f58cb9ea64ae2f1ba9a382c86</Anchor>
                            </Node>
                            <Node>
+                            <Name>lf_cli_type_t</Name>
+                            <Path>group__Internal.html</Path>
+                            <Anchor>gab6749d3dbb42ebbff86bd3cb3c5355d1</Anchor>
+                          <Subnodes>
+                             <Node>
+                              <Name>CLI_TIME</Name>
+                              <Path>group__Internal.html</Path>
+                              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a09d6a14cdb0766e765c2c7ca8b2af5bb</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>CLI_INT</Name>
+                              <Path>group__Internal.html</Path>
+                              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a6a2c058f3b82734ecf0b3cbe5a2a0601</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>CLI_DOUBLE</Name>
+                              <Path>group__Internal.html</Path>
+                              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a7fba473d691d4e6f82590046adc180fe</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>CLI_FLOAT</Name>
+                              <Path>group__Internal.html</Path>
+                              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1afbd9c902ff2f90bb0374b97641233446</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>CLI_BOOL</Name>
+                              <Path>group__Internal.html</Path>
+                              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1adf8fdb008a2c4c82d8bbc64f7f0c25e8</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>CLI_STRING</Name>
+                              <Path>group__Internal.html</Path>
+                              <Anchor>ggab6749d3dbb42ebbff86bd3cb3c5355d1a45c4dbdb3ed80c8b6aebfb2205333cc6</Anchor>
+                             </Node>
+                            </Subnodes>
+                           </Node>
+                           <Node>
                             <Name>_lf_advance_tag</Name>
                             <Path>group__Internal.html</Path>
                             <Anchor>ga4659db62370c837baa55484134b3bfb7</Anchor>
@@ -11409,6 +10422,11 @@
                             <Anchor>ga80aaf4eeed3e2902f8fe9de80b45777d</Anchor>
                            </Node>
                            <Node>
+                            <Name>process_user_args</Name>
+                            <Path>group__Internal.html</Path>
+                            <Anchor>ga091dcc6caaaacf4c6bc71717577d7ec8</Anchor>
+                           </Node>
+                           <Node>
                             <Name>schedule_output_reactions</Name>
                             <Path>group__Internal.html</Path>
                             <Anchor>gaeaaa76aeb7d93efc4e0f0c484548af70</Anchor>
@@ -11417,6 +10435,21 @@
                             <Name>termination</Name>
                             <Path>group__Internal.html</Path>
                             <Anchor>gaa329f59a16f5617b5195f2c05872c9e9</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>usage</Name>
+                            <Path>group__Internal.html</Path>
+                            <Anchor>ga7f44f474f50286c4ba8c0ebac254bb28</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>_lf_cli_params</Name>
+                            <Path>reactor__common_8h.html</Path>
+                            <Anchor>ab5dc932f2e918479f1e1a794951a97e6</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>_lf_cli_params_count</Name>
+                            <Path>reactor__common_8h.html</Path>
+                            <Anchor>ac4ef40ede19625d7676b9748e7457517</Anchor>
                            </Node>
                            <Node>
                             <Name>_lf_normal_termination</Name>
@@ -11635,32 +10668,37 @@
                            <Node>
                             <Name>lf_print_debug</Name>
                             <Path>group__API.html</Path>
-                            <Anchor>ga22ebee89c962ac34cc1fa7b9762b77d2</Anchor>
+                            <Anchor>gabd6405738a4627385a6f3a42ef699053</Anchor>
                            </Node>
                            <Node>
                             <Name>lf_print_error</Name>
                             <Path>group__API.html</Path>
-                            <Anchor>gae0a6bd6b164c5cc3e9928f5375dd1a97</Anchor>
+                            <Anchor>ga43edc98b0e919af21d98951e6ec321d3</Anchor>
                            </Node>
                            <Node>
                             <Name>lf_print_error_and_exit</Name>
                             <Path>group__API.html</Path>
-                            <Anchor>gabf2630e80adfec45b8b4a2782a0767a7</Anchor>
+                            <Anchor>ga4e8f3883185b649cf76a2742b40c1231</Anchor>
                            </Node>
                            <Node>
                             <Name>lf_print_error_system_failure</Name>
                             <Path>group__API.html</Path>
-                            <Anchor>gacbc9741875a95bb30e1a8d68cfb7cf06</Anchor>
+                            <Anchor>gaa3215c4ac1863a4e36afb8075236cd72</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>lf_print_info</Name>
+                            <Path>group__API.html</Path>
+                            <Anchor>ga1ccde32ac15737cca48fecd88d89c472</Anchor>
                            </Node>
                            <Node>
                             <Name>lf_print_log</Name>
                             <Path>group__API.html</Path>
-                            <Anchor>gab202dc9383567eaa8d9ae7240c939c19</Anchor>
+                            <Anchor>ga04de5be3e0e5beee4d80966937bc63ca</Anchor>
                            </Node>
                            <Node>
                             <Name>lf_print_warning</Name>
                             <Path>group__API.html</Path>
-                            <Anchor>ga613bc8d331e3fd9a3f78eb1600092e1d</Anchor>
+                            <Anchor>ga01f18501c6335b9879aeb2fa85527450</Anchor>
                            </Node>
                            <Node>
                             <Name>lf_register_print_function</Name>
@@ -12195,6 +11233,11 @@
                             <Anchor>ga6faad0d905f7135352f511bc235425e1</Anchor>
                            </Node>
                            <Node>
+                            <Name>lf_time_parse</Name>
+                            <Path>group__API.html</Path>
+                            <Anchor>ga2361531ff9cbedbc03354450503a43c4</Anchor>
+                           </Node>
+                           <Node>
                             <Name>lf_time_physical</Name>
                             <Path>group__API.html</Path>
                             <Anchor>ga7538766a655ba2e60ddde55f2e020e58</Anchor>
@@ -12402,6 +11445,11 @@
                                 <Anchor>ggab02e9e69539d60297cedb38c2193a453a4ebac2f241a667876f0a7ab20a8efdec</Anchor>
                                </Node>
                                <Node>
+                                <Name>send_ADR_QR_REP</Name>
+                                <Path>group__Tracing.html</Path>
+                                <Anchor>ggab02e9e69539d60297cedb38c2193a453a73ff55a6e4eeb9b6beb1ee48ff38a278</Anchor>
+                               </Node>
+                               <Node>
                                 <Name>send_DNET</Name>
                                 <Path>group__Tracing.html</Path>
                                 <Anchor>ggab02e9e69539d60297cedb38c2193a453afd2cdb4240669a883e88c58b28b470cd</Anchor>
@@ -12510,6 +11558,11 @@
                                 <Name>receive_ADR_QR</Name>
                                 <Path>group__Tracing.html</Path>
                                 <Anchor>ggab02e9e69539d60297cedb38c2193a453af6e18bcb48b442e2be5a898d60c3bdf2</Anchor>
+                               </Node>
+                               <Node>
+                                <Name>receive_ADR_QR_REP</Name>
+                                <Path>group__Tracing.html</Path>
+                                <Anchor>ggab02e9e69539d60297cedb38c2193a453a6d3e3d6b5c7fb851c6633d9ec4cac884</Anchor>
                                </Node>
                                <Node>
                                 <Name>receive_DNET</Name>
@@ -13097,6 +12150,42 @@
                         </Subnodes>
                        </Node>
                        <Node>
+                        <Name>initialize_from_file.h</Name>
+                        <Path>initialize__from__file_8h.html</Path>
+                      <Subnodes>
+                         <Node>
+                          <Name>lf_initialize_string</Name>
+                          <Path>group__Utilities.html</Path>
+                          <Anchor>gaf36e5f8d4a3aab7cc4b1d40075f636e8</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>SC_CSV_LINE_MAX</Name>
+                          <Path>initialize__from__file_8h.html</Path>
+                          <Anchor>aeec3cb70a84e7163b1a15ae5ddbab00b</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>SC_CSV_MAX_COLS</Name>
+                          <Path>initialize__from__file_8h.html</Path>
+                          <Anchor>a8e1668dfaf0cb0b2346be5fa7fcb84be</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>_lf_initialize_string</Name>
+                          <Path>initialize__from__file_8h.html</Path>
+                          <Anchor>a4878fc86dfa53f1bd74ceb29405c63bc</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>lf_initialize_double</Name>
+                          <Path>group__Utilities.html</Path>
+                          <Anchor>gaad106b7c85ed76b183e45b5be26ed325</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>lf_initialize_int</Name>
+                          <Path>group__Utilities.html</Path>
+                          <Anchor>gaa29f18ca2c61912c2b16df580e0acf8a</Anchor>
+                         </Node>
+                        </Subnodes>
+                       </Node>
+                       <Node>
                         <Name>sensor_simulator.h</Name>
                         <Path>sensor__simulator_8h.html</Path>
                       <Subnodes>
@@ -13384,96 +12473,6 @@
            <Node>
             <Name>Macros</Name>
             <Path>globals_defs.html</Path>
-          <Subnodes>
-             <Node>
-              <Name>_</Name>
-              <Path>globals_defs.html</Path>
-             </Node>
-             <Node>
-              <Name>a</Name>
-              <Path>globals_defs_a.html</Path>
-             </Node>
-             <Node>
-              <Name>b</Name>
-              <Path>globals_defs_b.html</Path>
-             </Node>
-             <Node>
-              <Name>c</Name>
-              <Path>globals_defs_c.html</Path>
-             </Node>
-             <Node>
-              <Name>d</Name>
-              <Path>globals_defs_d.html</Path>
-             </Node>
-             <Node>
-              <Name>e</Name>
-              <Path>globals_defs_e.html</Path>
-             </Node>
-             <Node>
-              <Name>f</Name>
-              <Path>globals_defs_f.html</Path>
-             </Node>
-             <Node>
-              <Name>g</Name>
-              <Path>globals_defs_g.html</Path>
-             </Node>
-             <Node>
-              <Name>h</Name>
-              <Path>globals_defs_h.html</Path>
-             </Node>
-             <Node>
-              <Name>i</Name>
-              <Path>globals_defs_i.html</Path>
-             </Node>
-             <Node>
-              <Name>k</Name>
-              <Path>globals_defs_k.html</Path>
-             </Node>
-             <Node>
-              <Name>l</Name>
-              <Path>globals_defs_l.html</Path>
-             </Node>
-             <Node>
-              <Name>m</Name>
-              <Path>globals_defs_m.html</Path>
-             </Node>
-             <Node>
-              <Name>n</Name>
-              <Path>globals_defs_n.html</Path>
-             </Node>
-             <Node>
-              <Name>p</Name>
-              <Path>globals_defs_p.html</Path>
-             </Node>
-             <Node>
-              <Name>r</Name>
-              <Path>globals_defs_r.html</Path>
-             </Node>
-             <Node>
-              <Name>s</Name>
-              <Path>globals_defs_s.html</Path>
-             </Node>
-             <Node>
-              <Name>t</Name>
-              <Path>globals_defs_t.html</Path>
-             </Node>
-             <Node>
-              <Name>u</Name>
-              <Path>globals_defs_u.html</Path>
-             </Node>
-             <Node>
-              <Name>v</Name>
-              <Path>globals_defs_v.html</Path>
-             </Node>
-             <Node>
-              <Name>w</Name>
-              <Path>globals_defs_w.html</Path>
-             </Node>
-             <Node>
-              <Name>z</Name>
-              <Path>globals_defs_z.html</Path>
-             </Node>
-            </Subnodes>
            </Node>
           </Subnodes>
          </Node>

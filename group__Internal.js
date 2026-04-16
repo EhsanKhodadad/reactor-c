@@ -76,6 +76,14 @@ var group__Internal =
       [ "tmplt", "structlf__action__base__t.html#a09b0a1d42be1f4df2b1c460f966937d3", null ],
       [ "trigger", "structlf__action__base__t.html#aacf5d85cce69c1ed02a1717a3fcbb46e", null ]
     ] ],
+    [ "lf_cli_param_t", "structlf__cli__param__t.html", [
+      [ "description", "structlf__cli__param__t.html#ac4dc5b328292f7ad68e8e90badb724d0", null ],
+      [ "given", "structlf__cli__param__t.html#a7c6500f889e4206793504df3844bd680", null ],
+      [ "is_width", "structlf__cli__param__t.html#a76314e729d4c6a7ed7fd5e709d25a481", null ],
+      [ "name", "structlf__cli__param__t.html#a2bd92664043e3009e4a561a72969d9d1", null ],
+      [ "type", "structlf__cli__param__t.html#a86ef934906092ac28147194150decdc0", null ],
+      [ "value", "structlf__cli__param__t.html#aa3c80a588b22ee064941e376fea3a49e", null ]
+    ] ],
     [ "lf_port_base_t", "structlf__port__base__t.html", [
       [ "destination_channel", "structlf__port__base__t.html#ab7734e3cdd562ad5f6ad94f97e095822", null ],
       [ "is_present", "structlf__port__base__t.html#aa944290a27aff5cbc8334ad026076290", null ],
@@ -262,6 +270,14 @@ var group__Internal =
     [ "ushort", "group__Internal.html#ga3fa7784c89589b49764048e9909d0e07", null ],
     [ "watchdog_function_t", "group__Internal.html#ga4caef7fcd0476a936700512d28a23aa8", null ],
     [ "watchdog_t", "group__Internal.html#gaee1cd2bc521f76fa428cc659474d9570", null ],
+    [ "lf_cli_type_t", "group__Internal.html#gab6749d3dbb42ebbff86bd3cb3c5355d1", [
+      [ "CLI_TIME", "group__Internal.html#ggab6749d3dbb42ebbff86bd3cb3c5355d1a09d6a14cdb0766e765c2c7ca8b2af5bb", null ],
+      [ "CLI_INT", "group__Internal.html#ggab6749d3dbb42ebbff86bd3cb3c5355d1a6a2c058f3b82734ecf0b3cbe5a2a0601", null ],
+      [ "CLI_DOUBLE", "group__Internal.html#ggab6749d3dbb42ebbff86bd3cb3c5355d1a7fba473d691d4e6f82590046adc180fe", null ],
+      [ "CLI_FLOAT", "group__Internal.html#ggab6749d3dbb42ebbff86bd3cb3c5355d1afbd9c902ff2f90bb0374b97641233446", null ],
+      [ "CLI_BOOL", "group__Internal.html#ggab6749d3dbb42ebbff86bd3cb3c5355d1adf8fdb008a2c4c82d8bbc64f7f0c25e8", null ],
+      [ "CLI_STRING", "group__Internal.html#ggab6749d3dbb42ebbff86bd3cb3c5355d1a45c4dbdb3ed80c8b6aebfb2205333cc6", null ]
+    ] ],
     [ "lf_spacing_policy_t", "group__Internal.html#ga0183c0b43037a172a1cd9aa6ed6b3822", [
       [ "defer", "group__Internal.html#gga0183c0b43037a172a1cd9aa6ed6b3822a893b1cf0de04eaf44a009fecabd16b90", null ],
       [ "drop", "group__Internal.html#gga0183c0b43037a172a1cd9aa6ed6b3822a1e34755950041e469ca91ff2b7d1c019", null ],
@@ -325,7 +341,7 @@ var group__Internal =
     [ "environment_init", "group__Internal.html#gab49da5954eb69f3d126162da44c25b36", null ],
     [ "environment_init_tags", "group__Internal.html#gaf23dde6465214cc92114e0c49bccdc72", null ],
     [ "environment_verify", "group__Internal.html#gaeb51302599cae953b2b8942088879e2f", null ],
-    [ "error", "group__Internal.html#ga8db9f1cd3ea7eb70e6958e732b26e61d", null ],
+    [ "error", "group__Internal.html#ga73dce66b0161fa5da8bb2a1bcc8d3101", null ],
     [ "get_next_event_tag", "group__Internal.html#ga9b50c51a9046dfb8814b2f609020d0a4", null ],
     [ "get_reaction_index", "group__Internal.html#gacd6d67f4e05f2780b23aef72f92468f5", null ],
     [ "get_reaction_position", "group__Internal.html#ga051ae6a8bc2b547818e06cb0c72b14a2", null ],
@@ -364,10 +380,11 @@ var group__Internal =
     [ "lf_time_logical_elapsed", "group__Internal.html#ga6faad0d905f7135352f511bc235425e1", null ],
     [ "lf_tracing_check_version", "group__Internal.html#ga5a16cb75bd134d91bbb002b5d1ddc45c", null ],
     [ "lf_vprint", "group__Internal.html#ga1b64e4e645fbebb1a3b132280b2c5b35", null ],
-    [ "lf_vprint_debug", "group__Internal.html#ga334870b12bd4bc49b9da219e31225477", null ],
+    [ "lf_vprint_debug", "group__Internal.html#gaec240098951eda60632ee6283450dbf0", null ],
     [ "lf_vprint_error", "group__Internal.html#ga3d1b4e46f0394bbf2e74c4eabfd8923f", null ],
     [ "lf_vprint_error_and_exit", "group__Internal.html#ga698eb7c2ecf514b4afa1ab7ab598eea2", null ],
-    [ "lf_vprint_log", "group__Internal.html#ga8432a03751d354b69ffe2f5b8c664654", null ],
+    [ "lf_vprint_info", "group__Internal.html#ga136068c8a901039b20f0bd1e552d6885", null ],
+    [ "lf_vprint_log", "group__Internal.html#ga0b410cbb25ceba53293a3cee9d64aab0", null ],
     [ "lf_vprint_warning", "group__Internal.html#ga47f8c72c1407daae89508da09273d655", null ],
     [ "logical_tag_complete", "group__Internal.html#gad96dd94446ff66184dcf0f8f65cdb4f0", null ],
     [ "mixed_radix_incr", "group__Internal.html#gaab4b6c3ec9d416bc0965f81ff9194736", null ],
@@ -402,6 +419,7 @@ var group__Internal =
     [ "pqueue_tag_size", "group__Internal.html#ga0679a4db1f4d970d9f1048e253b79562", null ],
     [ "print_reaction", "group__Internal.html#ga26e33f5180dc5951b3d26094959913b7", null ],
     [ "process_args", "group__Internal.html#ga80aaf4eeed3e2902f8fe9de80b45777d", null ],
+    [ "process_user_args", "group__Internal.html#ga091dcc6caaaacf4c6bc71717577d7ec8", null ],
     [ "reaction_matches", "group__Internal.html#ga648da83816bb67aedeeaa8c10a99ec7a", null ],
     [ "schedule_output_reactions", "group__Internal.html#gaeaaa76aeb7d93efc4e0f0c484548af70", null ],
     [ "send_next_event_tag", "group__Internal.html#ga6f9a4a14de3aa9e560935a57093eb122", null ],
@@ -409,6 +427,7 @@ var group__Internal =
     [ "should_stop_locked", "group__Internal.html#ga5ee7c21a8b90bb09784f221c1de4d9c9", null ],
     [ "termination", "group__Internal.html#gaa329f59a16f5617b5195f2c05872c9e9", null ],
     [ "tracepoint_schedule", "group__Internal.html#ga896f27619ab0582d5a70d8f613567671", null ],
+    [ "usage", "group__Internal.html#ga7f44f474f50286c4ba8c0ebac254bb28", null ],
     [ "wait_until", "group__Internal.html#ga70c4ab92f00f9bcc31e4d696db1c0526", null ],
     [ "_lf_count_token_allocations", "group__Internal.html#gaf4657205de7da8f0bf7b346985a983fc", null ],
     [ "_lf_my_fed_id", "group__Internal.html#ga3c7bddddb86913975950acdcf8bfef2a", null ]
