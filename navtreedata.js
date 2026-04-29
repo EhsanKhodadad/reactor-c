@@ -25,23 +25,15 @@
 var NAVTREE =
 [
   [ "reactor-c", "index.html", [
-    [ "LICENSE", "d2/d35/md__l_i_c_e_n_s_e.html", null ],
-    [ "README", "d3/dcc/md__r_e_a_d_m_e.html", [
-      [ "Reactor-C: A reactor runtime implementation in C", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md4", [
-        [ "Documentation", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md5", null ],
-        [ "Code-formatting", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md6", null ],
-        [ "Testing", "d3/dcc/md__r_e_a_d_m_e.html#autotoc_md7", null ]
+    [ "Introduction", "intro.html", [
+      [ "Overview", "index.html#autotoc_md0", null ],
+      [ "Supported Platforms", "index.html#autotoc_md1", [
+        [ "Getting started", "intro.html#autotoc_md2", null ]
       ] ]
     ] ],
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
-      ] ]
-    ] ],
+    [ "Contributing", "contributing.html", null ],
+    [ "License", "license.html", null ],
+    [ "Topics", "topics.html", "topics" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -59,7 +51,7 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -68,15 +60,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/da6/trace__impl_8h.html#a5d7ebab8b9d2b0d41fb5d5d3ad854df0",
-"d4/dd2/reactor__threaded_8h.html#a70c4ab92f00f9bcc31e4d696db1c0526",
-"d6/d51/pqueue__base_8h.html#a921be3b49e4021888c595188438fdf7a",
-"d7/dc7/struct__lf__tag__advancement__barrier.html#ad60842fa9c91497e893075d9b42913ba",
-"d9/dc7/trace__util_8h_source.html",
-"db/d7a/trace__to__chrome_8c.html#aa13cffb52be447e12e4723e5c96b53da",
-"dc/d85/reactor_8h.html#adaa6f5f1a265e7a37aeb3b6a0d101732",
-"de/dbd/socket__common_8h.html#af27674f627be1c469a529a995da5c074",
-"globals_enum.html"
+"group__Constants.html#gaea80ae7708f69d05cd44126f08a08cf3",
+"group__Internal.html#gafd3a0abded3adbc25ab7dbc261e7b16c",
+"group__Utilities.html#ga196614841046dea5b94b2a60108fff40",
+"structlf__port__internal__t.html",
+"trace__types_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
